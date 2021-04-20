@@ -1,0 +1,100 @@
+@import url(//unpkg.com/nprogress@0.2.0/nprogress.css);
+
+.navbar[data-v-58899457] {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #723d67;
+  display: flex;
+}
+.navbar a[data-v-58899457] {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a[data-v-58899457]:hover {
+  background-color: #111;
+}
+
+
+.plugin-config[data-v-060f4b2f] {
+  margin: 5px;
+}
+
+
+.plugin[data-v-5dbd2c9a] {
+  margin: 10px;
+  width: 500px;
+  background-color: #efcda4;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+}
+
+
+.plugins-manager {
+  background-color: #e1b5a2;
+}
+
+
+.image-upload[data-v-17c28e0a] {
+  margin: 10px;
+  width: 300px;
+  height: 500px;
+  background-color: #e1b5a2;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+}
+.file-upload[data-v-17c28e0a] {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.image-preview[data-v-b5e0945a] {
+  max-width: 640px;
+  max-height: 480px;
+  margin: 10px;
+  background-color: #efcda4;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.image-preview img[data-v-b5e0945a] {
+  max-width: 640px;
+  max-height: 480px;
+}
+
+
+.main[data-v-d25a800a] {
+  padding: 100px;
+  display: flex;
+  background-color: #5a0d33;
+}
+button[data-v-d25a800a] {
+  width: 350px;
+  color: white;
+  background-color: #9c3c53;
+  border: 2px solid darkgray;
+  border-radius: 15px;
+  font-size: 24pt;
+  padding: 10px;
+}
+
+#app {
+  color: black;
+}
+
+
+/*# sourceMappingURL=929.css.map*/

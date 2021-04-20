@@ -4,7 +4,7 @@
 /***/ 225:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.all(/* import() */[__webpack_require__.e(568), __webpack_require__.e(169)]).then(__webpack_require__.bind(__webpack_require__, 169));
+Promise.all(/* import() */[__webpack_require__.e(568), __webpack_require__.e(748), __webpack_require__.e(929)]).then(__webpack_require__.bind(__webpack_require__, 929));
 
 /***/ })
 
@@ -200,6 +200,7 @@ Promise.all(/* import() */[__webpack_require__.e(568), __webpack_require__.e(169
 /******/ 			var promises = [];
 /******/ 			switch(name) {
 /******/ 				case "default": {
+/******/ 					register("vue-router", "4.0.6", () => (Promise.all([__webpack_require__.e(119), __webpack_require__.e(748)]).then(() => (() => (__webpack_require__(119))))));
 /******/ 					register("vue", "3.0.11", () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594))))));
 /******/ 				}
 /******/ 				break;
@@ -240,7 +241,7 @@ Promise.all(/* import() */[__webpack_require__.e(568), __webpack_require__.e(169
 /******/ 	
 /******/ 	
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"169":1};
+/******/ 		var cssChunks = {"929":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
@@ -402,12 +403,16 @@ Promise.all(/* import() */[__webpack_require__.e(568), __webpack_require__.e(169
 /******/ 		});
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
-/******/ 			748: () => (loadStrictVersionCheckFallback("default", "vue", [1,3,0,11], () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594)))))))
+/******/ 			748: () => (loadStrictVersionCheckFallback("default", "vue", [1,3,0,11], () => (__webpack_require__.e(594).then(() => (() => (__webpack_require__(594))))))),
+/******/ 			755: () => (loadStrictVersionCheckFallback("default", "vue-router", [1,4,0,6], () => (__webpack_require__.e(119).then(() => (() => (__webpack_require__(119)))))))
 /******/ 		};
 /******/ 		// no consumes in initial chunks
 /******/ 		var chunkMapping = {
-/******/ 			"169": [
+/******/ 			"748": [
 /******/ 				748
+/******/ 			],
+/******/ 			"929": [
+/******/ 				755
 /******/ 			]
 /******/ 		};
 /******/ 		__webpack_require__.f.consumes = (chunkId, promises) => {
@@ -459,7 +464,7 @@ Promise.all(/* import() */[__webpack_require__.e(568), __webpack_require__.e(169
 /******/ 					if(installedChunkData) {
 /******/ 						promises.push(installedChunkData[2]);
 /******/ 					} else {
-/******/ 						if(true) { // all chunks have JS
+/******/ 						if(748 != chunkId) {
 /******/ 							// setup Promise in chunk cache
 /******/ 							var promise = new Promise((resolve, reject) => (installedChunkData = installedChunks[chunkId] = [resolve, reject]));
 /******/ 							promises.push(installedChunkData[2] = promise);

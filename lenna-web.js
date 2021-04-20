@@ -4,7 +4,7 @@
 /***/ 225:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.all(/* import() */[__webpack_require__.e(568), __webpack_require__.e(748), __webpack_require__.e(929)]).then(__webpack_require__.bind(__webpack_require__, 929));
+Promise.all(/* import() */[__webpack_require__.e(568), __webpack_require__.e(748), __webpack_require__.e(985)]).then(__webpack_require__.bind(__webpack_require__, 985));
 
 /***/ })
 
@@ -241,7 +241,7 @@ Promise.all(/* import() */[__webpack_require__.e(568), __webpack_require__.e(748
 /******/ 	
 /******/ 	
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"929":1};
+/******/ 		var cssChunks = {"985":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
@@ -411,7 +411,7 @@ Promise.all(/* import() */[__webpack_require__.e(568), __webpack_require__.e(748
 /******/ 			"748": [
 /******/ 				748
 /******/ 			],
-/******/ 			"929": [
+/******/ 			"985": [
 /******/ 				755
 /******/ 			]
 /******/ 		};

@@ -1,0 +1,131 @@
+@import url(//unpkg.com/nprogress@0.2.0/nprogress.css);
+
+.navbar[data-v-174c0c93] {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #723d67;
+  justify-content: flex-end;
+  display: flex;
+}
+.navbar a[data-v-174c0c93] {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a[data-v-174c0c93]:hover {
+  background-color: #111;
+}
+
+
+.plugin-config[data-v-060f4b2f] {
+  margin: 5px;
+}
+
+
+.plugin[data-v-c01d1a6e] {
+  margin: 10px;
+  width: 500px;
+  background-color: #efcda4;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+}
+
+
+.plugins-manager {
+  margin: 10px;
+  background-color: #e1b5a2;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px white;
+}
+
+
+.image-upload[data-v-67761a0c] {
+  margin: 10px;
+  width: 300px;
+  height: 500px;
+  background-color: #e1b5a2;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px white;
+}
+.file-upload[data-v-67761a0c] {
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.image-preview[data-v-520953e0] {
+  margin: 10px;
+  background-color: #efcda4;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px white;
+}
+.image-container[data-v-520953e0] {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 400px;
+  min-height: 500px;
+  max-width: 640px;
+}
+
+
+.config[data-v-f11c0258] {
+  margin: 10px;
+  width: 200px;
+  height: 300px;
+  background-color: #efcda4;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+}
+
+
+#circle[data-v-53b681b8] {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #5a0d33;
+  background-color: #723d67;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+}
+#circle[data-v-53b681b8]:hover {
+  transform: scale(1.1);
+}
+.main[data-v-53b681b8] {
+  padding: 100px;
+  display: flex;
+  background-color: #5a0d33;
+}
+.main button[data-v-53b681b8] {
+  width: 350px;
+  font-size: 24pt;
+  padding: 10px;
+}
+
+#app {
+  color: black;
+}
+button {
+  color: white;
+  background-color: #9c3c53;
+  border: 2px solid darkgray;
+  border-radius: 15px;
+}
+
+
+/*# sourceMappingURL=509.css.map*/

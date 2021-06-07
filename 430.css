@@ -1,0 +1,14 @@
+@import url(//unpkg.com/nprogress@0.2.0/nprogress.css);
+.navbar[data-v-23b0e243]{position:fixed;top:0;width:100%;height:100px;margin:0;overflow:hidden;background-color:#fff;justify-content:flex-end;display:flex;color:#676767}.navbar a[data-v-23b0e243]{display:block;color:#676767;text-align:center;padding:14px 16px;text-decoration:none}.navbar a[data-v-23b0e243]:hover{background-color:#e3565c}
+.footer[data-v-0add3bce]{text-align:center}
+.plugin-config[data-v-060f4b2f]{margin:5px}
+.plugin[data-v-019e7d5d]{margin:10px;padding:5px;min-width:200px;min-height:200px;background-color:#fff;border-radius:5px;box-shadow:5px 5px 5px #dbdde0;text-align:center}#icon[data-v-019e7d5d]{margin:10px;width:48px;height:48px}
+.plugins-manager[data-v-3e5989e6]{background-color:#f4f7fa;display:flex;justify-content:space-between}.list-group-item[data-v-3e5989e6]{float:left}
+.image-upload[data-v-7371e6d3]{margin:10px;width:300px;height:350px;background-color:#f4f7fa;border:2px solid #000;border-radius:10px;box-shadow:10px 5px 5px #dbdde0;align-items:center;text-align:center}.file-upload[data-v-7371e6d3]{margin:10px;height:25%;display:flex;justify-content:center;align-items:center}.image-container[data-v-7371e6d3]{height:200px;display:flex;flex-wrap:wrap;overflow-y:auto}
+.image-preview[data-v-7383caa6]{margin:10px;width:300px;height:350px;background-color:#f4f7fa;border:2px solid #000;border-radius:10px;box-shadow:10px 5px 5px #dbdde0;align-items:center;text-align:center}.image-container[data-v-7383caa6]{height:200px;display:flex;flex-wrap:wrap;overflow-y:auto}#save[data-v-7383caa6]{cursor:pointer;height:100px;padding:10px}
+.config[data-v-f11c0258]{margin:10px;width:200px;height:300px;background-color:#efcda4;border:1px solid #a9a9a9;border-radius:5px}
+#circle[data-v-aa7ddff6]{width:120px;height:120px;border-radius:50%;border:2px solid #dbdde0;background-color:#f4f7fa;position:absolute;top:-25px;left:-25px}#circle[data-v-aa7ddff6]:hover{transform:scale(1.1)}.main[data-v-aa7ddff6]{background-color:#f4f7fa;padding:100px;text-align:center}.main h1[data-v-aa7ddff6]{text-transform:uppercase}.top_main[data-v-aa7ddff6]{display:flex;justify-content:space-between}.bottom_main[data-v-aa7ddff6]{padding-top:20px;padding-bottom:0}#process button[data-v-aa7ddff6]{margin-top:50%;width:350px;align-self:center;font-size:24pt;padding:10px;border-radius:30px;box-shadow:5px 5px 5px #dbdde0}
+.about[data-v-5931f81e]{padding:100px;padding-left:30%;background-color:#f4f7fa;height:100%}
+#app{color:#000}button{color:#676767;background-color:#f9d65d;border:2px solid #a9a9a9;border-radius:15px}
+
+/*# sourceMappingURL=430.css.map*/

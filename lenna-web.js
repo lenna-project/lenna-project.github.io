@@ -4,7 +4,7 @@
 /***/ 225:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.all(/* import() */[__webpack_require__.e(953), __webpack_require__.e(748), __webpack_require__.e(982)]).then(__webpack_require__.bind(__webpack_require__, 982));
+Promise.all(/* import() */[__webpack_require__.e(953), __webpack_require__.e(748), __webpack_require__.e(925)]).then(__webpack_require__.bind(__webpack_require__, 925));
 
 /***/ })
 
@@ -370,7 +370,7 @@ Promise.all(/* import() */[__webpack_require__.e(953), __webpack_require__.e(748
 /******/ 			"748": [
 /******/ 				748
 /******/ 			],
-/******/ 			"982": [
+/******/ 			"925": [
 /******/ 				755
 /******/ 			]
 /******/ 		};
@@ -460,7 +460,7 @@ Promise.all(/* import() */[__webpack_require__.e(953), __webpack_require__.e(748
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
-/******/ 			var cssChunks = {"982":1};
+/******/ 			var cssChunks = {"925":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {

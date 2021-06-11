@@ -3,5 +3,9 @@ https://lenna.app/about
 https://lenna.app/about/
 https://lenna.app/marketplace/
 https://lenna.app/just/blur
+https://lenna.app/just/canny
+https://lenna.app/just/dramatic
+https://lenna.app/just/exif
 https://lenna.app/just/resize
 https://lenna.app/just/rotate
+https://lenna.app/just/sepia

@@ -4,7 +4,7 @@
 /***/ 225:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.all(/* import() */[__webpack_require__.e(953), __webpack_require__.e(748), __webpack_require__.e(447)]).then(__webpack_require__.bind(__webpack_require__, 447));
+Promise.all(/* import() */[__webpack_require__.e(953), __webpack_require__.e(748), __webpack_require__.e(678)]).then(__webpack_require__.bind(__webpack_require__, 678));
 
 /***/ })
 
@@ -367,7 +367,7 @@ Promise.all(/* import() */[__webpack_require__.e(953), __webpack_require__.e(748
 /******/ 		};
 /******/ 		// no consumes in initial chunks
 /******/ 		var chunkMapping = {
-/******/ 			"447": [
+/******/ 			"678": [
 /******/ 				755
 /******/ 			],
 /******/ 			"748": [
@@ -460,7 +460,7 @@ Promise.all(/* import() */[__webpack_require__.e(953), __webpack_require__.e(748
 /******/ 		};
 /******/ 		
 /******/ 		__webpack_require__.f.miniCss = (chunkId, promises) => {
-/******/ 			var cssChunks = {"447":1};
+/******/ 			var cssChunks = {"678":1};
 /******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(() => {

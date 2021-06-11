@@ -1264,15 +1264,15 @@ const routes = [
     component: Home,
   },
   {
-    path: "/just/${just}",
-    name: "Home",
-    component: Home,
-  },
-  {
     path: "/about",
     name: "About",
     component: About,
   },
+  {
+    path: "/just/${just}",
+    name: "Just",
+    component: Home,
+  }
 ];
 
 const router = (0,vue_router_esm_bundler_js_.createRouter)({

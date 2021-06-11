@@ -2,3 +2,6 @@ https://lenna.app/
 https://lenna.app/about
 https://lenna.app/about/
 https://lenna.app/marketplace/
+https://lenna.app/just/blur
+https://lenna.app/just/resize
+https://lenna.app/just/rotate

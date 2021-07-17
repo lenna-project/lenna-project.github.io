@@ -9,3 +9,5 @@ https://lenna.app/just/exif
 https://lenna.app/just/resize
 https://lenna.app/just/rotate
 https://lenna.app/just/sepia
+https://lenna.app/jupyter/lab/
+https://lenna.app/jupyter/

@@ -1,14 +1,14 @@
+"use strict";
 (self["webpackChunk_lenna_project_lenna_web"] = self["webpackChunk_lenna_project_lenna_web"] || []).push([[892],{
 
 /***/ 892:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// EXTERNAL MODULE: consume shared module (default) vue@^3.0.11 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
-var runtime_dom_esm_bundler_js_ = __webpack_require__(748);
+// EXTERNAL MODULE: consume shared module (default) vue@^3.2.2 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
+var runtime_dom_esm_bundler_js_ = __webpack_require__(214);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/App.vue?vue&type=template&id=12a8c975
 
 
@@ -17,7 +17,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_router_view = (0,runtime_dom_esm_bundler_js_.resolveComponent)("router-view")
   const _component_Footer = (0,runtime_dom_esm_bundler_js_.resolveComponent)("Footer")
 
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, [
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)(runtime_dom_esm_bundler_js_.Fragment, null, [
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_Navbar),
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_router_view),
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_Footer)
@@ -31,38 +31,37 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
 
 
-const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-ce5f3e5e")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-ce5f3e5e")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-ce5f3e5e")
 const _hoisted_1 = { class: "navbar" }
-const _hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("div", { id: "banner" }, [
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("img", { src: banner })
+const _hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("div", { id: "banner" }, [
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("img", { src: banner })
 ], -1)
 const _hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)("Home")
-const _hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("a", { href: "marketplace" }, "Marketplace", -1)
+const _hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("a", { href: "marketplace" }, "Marketplace", -1)
 const _hoisted_5 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)("About")
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const Navbarvue_type_template_id_ce5f3e5e_scoped_true_render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+function Navbarvue_type_template_id_ce5f3e5e_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_router_link = (0,runtime_dom_esm_bundler_js_.resolveComponent)("router-link")
 
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", _hoisted_1, [
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", _hoisted_1, [
     _hoisted_2,
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_router_link, { to: "/" }, {
-      default: _withId(() => [
+      default: (0,runtime_dom_esm_bundler_js_.withCtx)(() => [
         _hoisted_3
       ]),
       _: 1
     }),
     _hoisted_4,
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_router_link, { to: "/about" }, {
-      default: _withId(() => [
+      default: (0,runtime_dom_esm_bundler_js_.withCtx)(() => [
         _hoisted_5
       ]),
       _: 1
     })
   ]))
-})
+}
 ;// CONCATENATED MODULE: ./src/components/Navbar.vue?vue&type=template&id=ce5f3e5e&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Navbar.vue?vue&type=script&lang=js
@@ -85,22 +84,21 @@ Navbarvue_type_script_lang_js.__scopeId = "data-v-ce5f3e5e"
 /* harmony default export */ const Navbar = (Navbarvue_type_script_lang_js);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Footer.vue?vue&type=template&id=0add3bce&scoped=true
 
-const Footervue_type_template_id_0add3bce_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-0add3bce")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-0add3bce")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-0add3bce")
 const Footervue_type_template_id_0add3bce_scoped_true_hoisted_1 = { class: "footer" }
 const Footervue_type_template_id_0add3bce_scoped_true_hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)(" Convert images online without upload of your data. ")
-const Footervue_type_template_id_0add3bce_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("a", { href: "https://lenna.app" }, " lenna.app ", -1)
+const Footervue_type_template_id_0add3bce_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("a", { href: "https://lenna.app" }, " lenna.app ", -1)
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const Footervue_type_template_id_0add3bce_scoped_true_render = /*#__PURE__*/Footervue_type_template_id_0add3bce_scoped_true_withId((_ctx, _cache) => {
+function Footervue_type_template_id_0add3bce_scoped_true_render(_ctx, _cache) {
   const _component_v_footer = (0,runtime_dom_esm_bundler_js_.resolveComponent)("v-footer")
 
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Footervue_type_template_id_0add3bce_scoped_true_hoisted_1, [
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Footervue_type_template_id_0add3bce_scoped_true_hoisted_1, [
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_v_footer, null, {
-      default: Footervue_type_template_id_0add3bce_scoped_true_withId(() => [
+      default: (0,runtime_dom_esm_bundler_js_.withCtx)(() => [
         Footervue_type_template_id_0add3bce_scoped_true_hoisted_2,
-        (0,runtime_dom_esm_bundler_js_.createVNode)("p", null, [
+        (0,runtime_dom_esm_bundler_js_.createElementVNode)("p", null, [
           (0,runtime_dom_esm_bundler_js_.createTextVNode)(" © " + (0,runtime_dom_esm_bundler_js_.toDisplayString)(new Date().getFullYear()) + " — ", 1),
           Footervue_type_template_id_0add3bce_scoped_true_hoisted_3
         ])
@@ -108,7 +106,7 @@ const Footervue_type_template_id_0add3bce_scoped_true_render = /*#__PURE__*/Foot
       _: 1
     })
   ]))
-})
+}
 ;// CONCATENATED MODULE: ./src/components/Footer.vue?vue&type=template&id=0add3bce&scoped=true
 
 ;// CONCATENATED MODULE: ./src/components/Footer.vue
@@ -142,26 +140,25 @@ script.__scopeId = "data-v-0add3bce"
 Appvue_type_script_lang_js.render = render
 
 /* harmony default export */ const App = (Appvue_type_script_lang_js);
-// EXTERNAL MODULE: consume shared module (default) vue-router@^4.0.6 (strict) (fallback: ./node_modules/vue-router/dist/vue-router.esm-bundler.js)
-var vue_router_esm_bundler_js_ = __webpack_require__(755);
+// EXTERNAL MODULE: consume shared module (default) vue-router@^4.0.11 (strict) (fallback: ./node_modules/vue-router/dist/vue-router.esm-bundler.js)
+var vue_router_esm_bundler_js_ = __webpack_require__(986);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/views/Home.vue?vue&type=template&id=f0a67292&scoped=true
 
-const Homevue_type_template_id_f0a67292_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-f0a67292")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-f0a67292")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-f0a67292")
 const Homevue_type_template_id_f0a67292_scoped_true_hoisted_1 = { class: "v-step-0 v-step-1 v-step-2" }
-const Homevue_type_template_id_f0a67292_scoped_true_hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("br", null, null, -1)
+const Homevue_type_template_id_f0a67292_scoped_true_hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("br", null, null, -1)
 const Homevue_type_template_id_f0a67292_scoped_true_hoisted_3 = { class: "main" }
-const Homevue_type_template_id_f0a67292_scoped_true_hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("h1", null, "Convert images online without upload of your data", -1)
+const Homevue_type_template_id_f0a67292_scoped_true_hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("h1", null, "Convert images online without upload of your data", -1)
 const Homevue_type_template_id_f0a67292_scoped_true_hoisted_5 = { key: 0 }
 const _hoisted_6 = { class: "top_main" }
 const _hoisted_7 = { id: "process" }
 const _hoisted_8 = { class: "bottom_main" }
 const _hoisted_9 = { id: "line" }
-const _hoisted_10 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("hr", null, null, -1)
+const _hoisted_10 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("hr", null, null, -1)
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const Homevue_type_template_id_f0a67292_scoped_true_render = /*#__PURE__*/Homevue_type_template_id_f0a67292_scoped_true_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+function Homevue_type_template_id_f0a67292_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_Config = (0,runtime_dom_esm_bundler_js_.resolveComponent)("Config")
   const _component_Help = (0,runtime_dom_esm_bundler_js_.resolveComponent)("Help")
   const _component_Slide = (0,runtime_dom_esm_bundler_js_.resolveComponent)("Slide")
@@ -170,14 +167,14 @@ const Homevue_type_template_id_f0a67292_scoped_true_render = /*#__PURE__*/Homevu
   const _component_PluginsManager = (0,runtime_dom_esm_bundler_js_.resolveComponent)("PluginsManager")
   const _component_v_tour = (0,runtime_dom_esm_bundler_js_.resolveComponent)("v-tour")
 
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Homevue_type_template_id_f0a67292_scoped_true_hoisted_1, [
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Homevue_type_template_id_f0a67292_scoped_true_hoisted_1, [
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_Slide, null, {
-      default: Homevue_type_template_id_f0a67292_scoped_true_withId(() => [
-        (0,runtime_dom_esm_bundler_js_.createVNode)("button", {
-          onClick: _cache[1] || (_cache[1] = $event => (_ctx.loadPlugin(_ctx.pluginUrl)))
+      default: (0,runtime_dom_esm_bundler_js_.withCtx)(() => [
+        (0,runtime_dom_esm_bundler_js_.createElementVNode)("button", {
+          onClick: _cache[0] || (_cache[0] = $event => (_ctx.loadPlugin(_ctx.pluginUrl)))
         }, "add plugin"),
-        (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("input", {
-          "onUpdate:modelValue": _cache[2] || (_cache[2] = $event => (_ctx.pluginUrl = $event)),
+        (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createElementVNode)("input", {
+          "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => (_ctx.pluginUrl = $event)),
           placeholder: "https://lenna.app/lenna-plugins/desaturate/remoteEntry.js"
         }, null, 512), [
           [runtime_dom_esm_bundler_js_.vModelText, _ctx.pluginUrl]
@@ -193,21 +190,21 @@ const Homevue_type_template_id_f0a67292_scoped_true_render = /*#__PURE__*/Homevu
       ]),
       _: 1
     }),
-    (0,runtime_dom_esm_bundler_js_.createVNode)("div", Homevue_type_template_id_f0a67292_scoped_true_hoisted_3, [
+    (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", Homevue_type_template_id_f0a67292_scoped_true_hoisted_3, [
       Homevue_type_template_id_f0a67292_scoped_true_hoisted_4,
       (_ctx.just)
-        ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("h2", Homevue_type_template_id_f0a67292_scoped_true_hoisted_5, (0,runtime_dom_esm_bundler_js_.toDisplayString)(_ctx.just), 1))
+        ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("h2", Homevue_type_template_id_f0a67292_scoped_true_hoisted_5, (0,runtime_dom_esm_bundler_js_.toDisplayString)(_ctx.just), 1))
         : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true),
-      (0,runtime_dom_esm_bundler_js_.createVNode)("div", _hoisted_6, [
+      (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", _hoisted_6, [
         (0,runtime_dom_esm_bundler_js_.createVNode)(_component_ImageUpload, {
           class: "v-step-3",
           ref: "imageUpload",
-          onChangeImage: _cache[3] || (_cache[3] = $event => (_ctx.changeImages($event)))
+          onChangeImage: _cache[2] || (_cache[2] = $event => (_ctx.changeImages($event)))
         }, null, 512),
-        (0,runtime_dom_esm_bundler_js_.createVNode)("div", _hoisted_7, [
-          (0,runtime_dom_esm_bundler_js_.createVNode)("button", {
+        (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", _hoisted_7, [
+          (0,runtime_dom_esm_bundler_js_.createElementVNode)("button", {
             class: "v-step-5",
-            onClick: _cache[4] || (_cache[4] = (...args) => (_ctx.processImages && _ctx.processImages(...args)))
+            onClick: _cache[3] || (_cache[3] = (...args) => (_ctx.processImages && _ctx.processImages(...args)))
           }, " process images ")
         ]),
         (0,runtime_dom_esm_bundler_js_.createVNode)(_component_ImagePreview, {
@@ -215,7 +212,7 @@ const Homevue_type_template_id_f0a67292_scoped_true_render = /*#__PURE__*/Homevu
           images: _ctx.resultImages
         }, null, 8, ["images"])
       ]),
-      (0,runtime_dom_esm_bundler_js_.createVNode)("div", _hoisted_8, [
+      (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", _hoisted_8, [
         (0,runtime_dom_esm_bundler_js_.createVNode)(_component_PluginsManager, {
           class: "v-step-4",
           ref: "pluginsManager",
@@ -226,11 +223,11 @@ const Homevue_type_template_id_f0a67292_scoped_true_render = /*#__PURE__*/Homevu
           pluginsjson: "https://lenna.app/lenna-plugins/plugins.json"
         }, null, 8, ["filter", "defaultConfig", "defaultPlugins"])
       ]),
-      (0,runtime_dom_esm_bundler_js_.createVNode)("div", _hoisted_9, [
+      (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", _hoisted_9, [
         _hoisted_10,
-        (0,runtime_dom_esm_bundler_js_.createVNode)("div", {
+        (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", {
           class: "plus radius",
-          onClick: _cache[5] || (_cache[5] = $event => (_ctx.onMorePlugins()))
+          onClick: _cache[4] || (_cache[4] = $event => (_ctx.onMorePlugins()))
         })
       ])
     ]),
@@ -239,7 +236,7 @@ const Homevue_type_template_id_f0a67292_scoped_true_render = /*#__PURE__*/Homevu
       steps: _ctx.steps
     }, null, 8, ["steps"])
   ]))
-})
+}
 ;// CONCATENATED MODULE: ./src/views/Home.vue?vue&type=template&id=f0a67292&scoped=true
 
 // EXTERNAL MODULE: ./node_modules/nprogress/nprogress.js
@@ -250,24 +247,23 @@ var vue3_burger_menu_common = __webpack_require__(471);
 var esm = __webpack_require__(151);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/PluginsManager.vue?vue&type=template&id=8e8a11ba&scoped=true
 
-const PluginsManagervue_type_template_id_8e8a11ba_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-8e8a11ba")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-8e8a11ba")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-8e8a11ba")
 const PluginsManagervue_type_template_id_8e8a11ba_scoped_true_hoisted_1 = { class: "plugins-manager" }
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const PluginsManagervue_type_template_id_8e8a11ba_scoped_true_render = /*#__PURE__*/PluginsManagervue_type_template_id_8e8a11ba_scoped_true_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+function PluginsManagervue_type_template_id_8e8a11ba_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_Plugin = (0,runtime_dom_esm_bundler_js_.resolveComponent)("Plugin")
   const _component_draggable = (0,runtime_dom_esm_bundler_js_.resolveComponent)("draggable")
 
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", PluginsManagervue_type_template_id_8e8a11ba_scoped_true_hoisted_1, [
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", PluginsManagervue_type_template_id_8e8a11ba_scoped_true_hoisted_1, [
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_draggable, {
       class: "dragArea list-group plugins",
       list: _ctx.plugins
     }, {
-      default: PluginsManagervue_type_template_id_8e8a11ba_scoped_true_withId(() => [
-        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)(_ctx.plugins, (item) => {
-          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", {
+      default: (0,runtime_dom_esm_bundler_js_.withCtx)(() => [
+        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createElementBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)(_ctx.plugins, (item) => {
+          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", {
             class: "list-group-item",
             key: item.name
           }, [
@@ -285,111 +281,111 @@ const PluginsManagervue_type_template_id_8e8a11ba_scoped_true_render = /*#__PURE
       _: 1
     }, 8, ["list"])
   ]))
-})
+}
 ;// CONCATENATED MODULE: ./src/components/PluginsManager.vue?vue&type=template&id=8e8a11ba&scoped=true
 
 // EXTERNAL MODULE: ./node_modules/vue-draggable-next/dist/vue-draggable-next.esm-bundler.js
 var vue_draggable_next_esm_bundler = __webpack_require__(496);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Plugin.vue?vue&type=template&id=5f30d230&scoped=true
 
-const Pluginvue_type_template_id_5f30d230_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-5f30d230")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-5f30d230")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-5f30d230")
 const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_1 = {
   key: 0,
   class: "plugin"
 }
-const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_2 = { for: "checkbox" }
-const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_3 = { class: "checkbox-container" }
-const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_4 = { class: "checkbox" }
-const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_5 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("span", null, null, -1)
-const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_6 = { key: 0 }
+const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_2 = ["src"]
+const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_3 = { for: "checkbox" }
+const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_4 = { class: "checkbox-container" }
+const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_5 = { class: "checkbox" }
+const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_6 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("span", null, null, -1)
 const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_7 = { key: 0 }
-const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_8 = { key: 1 }
+const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_8 = { key: 0 }
+const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_9 = { key: 1 }
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const Pluginvue_type_template_id_5f30d230_scoped_true_render = /*#__PURE__*/Pluginvue_type_template_id_5f30d230_scoped_true_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+function Pluginvue_type_template_id_5f30d230_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_PluginConfig = (0,runtime_dom_esm_bundler_js_.resolveComponent)("PluginConfig")
 
   return ($props.plugin)
-    ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_1, [
-        (0,runtime_dom_esm_bundler_js_.createVNode)("div", null, [
+    ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_1, [
+        (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", null, [
           ($data.icon && !$data.enabled)
-            ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("img", {
+            ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("img", {
                 key: 0,
                 id: "icon",
                 src: $data.icon
-              }, null, 8, ["src"]))
+              }, null, 8, Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_2))
             : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true)
         ]),
-        (0,runtime_dom_esm_bundler_js_.createVNode)("div", null, [
-          (0,runtime_dom_esm_bundler_js_.createVNode)("h2", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_2, (0,runtime_dom_esm_bundler_js_.toDisplayString)($props.plugin.name()), 1),
-          (0,runtime_dom_esm_bundler_js_.createVNode)("div", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_3, [
-            (0,runtime_dom_esm_bundler_js_.createVNode)("label", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_4, [
-              (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("input", {
+        (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", null, [
+          (0,runtime_dom_esm_bundler_js_.createElementVNode)("h2", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_3, (0,runtime_dom_esm_bundler_js_.toDisplayString)($props.plugin.name()), 1),
+          (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_4, [
+            (0,runtime_dom_esm_bundler_js_.createElementVNode)("label", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_5, [
+              (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createElementVNode)("input", {
                 type: "checkbox",
                 id: "checkbox",
-                "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => ($data.enabled = $event)),
-                onChange: _cache[2] || (_cache[2] = $event => ($options.updateEnabled($data.enabled)))
+                "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => ($data.enabled = $event)),
+                onChange: _cache[1] || (_cache[1] = $event => ($options.updateEnabled($data.enabled)))
               }, null, 544), [
                 [runtime_dom_esm_bundler_js_.vModelCheckbox, $data.enabled]
               ]),
-              Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_5
+              Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_6
             ])
           ])
         ]),
         ($data.enabled)
-          ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_6, [
-              (0,runtime_dom_esm_bundler_js_.createVNode)("span", null, (0,runtime_dom_esm_bundler_js_.toDisplayString)($props.plugin.description()), 1),
+          ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_7, [
+              (0,runtime_dom_esm_bundler_js_.createElementVNode)("span", null, (0,runtime_dom_esm_bundler_js_.toDisplayString)($props.plugin.description()), 1),
               ($data.ui && $data.config)
-                ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_7, [
+                ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_8, [
                     ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)((0,runtime_dom_esm_bundler_js_.resolveDynamicComponent)($data.ui), {
                       key: $data.pluginKey,
                       defaultConfig: $data.config,
-                      onChangeConfig: _cache[3] || (_cache[3] = $event => ($options.updateConfig($event)))
+                      onChangeConfig: _cache[2] || (_cache[2] = $event => ($options.updateConfig($event)))
                     }, null, 8, ["defaultConfig"]))
                   ]))
-                : ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_8, [
+                : ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_9, [
                     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_PluginConfig, {
                       key: $data.pluginKey,
                       defaultConfig: $data.config,
-                      onChangeConfig: _cache[4] || (_cache[4] = $event => ($options.updateConfig($event)))
+                      onChangeConfig: _cache[3] || (_cache[3] = $event => ($options.updateConfig($event)))
                     }, null, 8, ["defaultConfig"])
                   ]))
             ]))
           : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true)
       ]))
     : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true)
-})
+}
 ;// CONCATENATED MODULE: ./src/components/Plugin.vue?vue&type=template&id=5f30d230&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/PluginConfig.vue?vue&type=template&id=1a66356f&scoped=true
 
-const PluginConfigvue_type_template_id_1a66356f_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-1a66356f")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-1a66356f")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-1a66356f")
 const PluginConfigvue_type_template_id_1a66356f_scoped_true_hoisted_1 = {
   key: 0,
   class: "plugin-config"
 }
 const PluginConfigvue_type_template_id_1a66356f_scoped_true_hoisted_2 = { class: "parameter" }
+const PluginConfigvue_type_template_id_1a66356f_scoped_true_hoisted_3 = ["placeholder", "onUpdate:modelValue"]
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const PluginConfigvue_type_template_id_1a66356f_scoped_true_render = /*#__PURE__*/PluginConfigvue_type_template_id_1a66356f_scoped_true_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+function PluginConfigvue_type_template_id_1a66356f_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
   return ($data.config)
-    ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", PluginConfigvue_type_template_id_1a66356f_scoped_true_hoisted_1, [
-        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)($data.config, (c) => {
-          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", {
+    ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", PluginConfigvue_type_template_id_1a66356f_scoped_true_hoisted_1, [
+        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createElementBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)($data.config, (c) => {
+          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", {
             key: c.key
           }, [
-            (0,runtime_dom_esm_bundler_js_.createVNode)("div", PluginConfigvue_type_template_id_1a66356f_scoped_true_hoisted_2, [
-              (0,runtime_dom_esm_bundler_js_.createVNode)("label", null, (0,runtime_dom_esm_bundler_js_.toDisplayString)(c.key) + ": ", 1),
-              (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("input", {
+            (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", PluginConfigvue_type_template_id_1a66356f_scoped_true_hoisted_2, [
+              (0,runtime_dom_esm_bundler_js_.createElementVNode)("label", null, (0,runtime_dom_esm_bundler_js_.toDisplayString)(c.key) + ": ", 1),
+              (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createElementVNode)("input", {
                 type: "number",
                 placeholder: c.key,
                 "onUpdate:modelValue": $event => (c.value = $event),
-                onChange: _cache[1] || (_cache[1] = $event => ($options.updateConfig()))
-              }, null, 40, ["placeholder", "onUpdate:modelValue"]), [
+                onChange: _cache[0] || (_cache[0] = $event => ($options.updateConfig()))
+              }, null, 40, PluginConfigvue_type_template_id_1a66356f_scoped_true_hoisted_3), [
                 [
                   runtime_dom_esm_bundler_js_.vModelText,
                   c.value,
@@ -402,7 +398,7 @@ const PluginConfigvue_type_template_id_1a66356f_scoped_true_render = /*#__PURE__
         }), 128))
       ]))
     : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true)
-})
+}
 ;// CONCATENATED MODULE: ./src/components/PluginConfig.vue?vue&type=template&id=1a66356f&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/PluginConfig.vue?vue&type=script&lang=ts
@@ -749,26 +745,27 @@ PluginsManagervue_type_script_lang_js.__scopeId = "data-v-8e8a11ba"
 /* harmony default export */ const PluginsManager = (PluginsManagervue_type_script_lang_js);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/ImageUpload.vue?vue&type=template&id=b78313d4&scoped=true
 
-const ImageUploadvue_type_template_id_b78313d4_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-b78313d4")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-b78313d4")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-b78313d4")
 const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_1 = { class: "image-upload" }
 const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)(" drop")
-const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("br", null, null, -1)
+const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("br", null, null, -1)
 const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)("or")
-const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_5 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("br", null, null, -1)
+const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_5 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("br", null, null, -1)
 const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_6 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)("select files")
 const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_7 = {
   key: 0,
   class: "image-container"
 }
+const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_8 = ["onClick"]
+const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_9 = ["src"]
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const ImageUploadvue_type_template_id_b78313d4_scoped_true_render = /*#__PURE__*/ImageUploadvue_type_template_id_b78313d4_scoped_true_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+function ImageUploadvue_type_template_id_b78313d4_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_FileUpload = (0,runtime_dom_esm_bundler_js_.resolveComponent)("FileUpload")
   const _component_vue_easy_lightbox = (0,runtime_dom_esm_bundler_js_.resolveComponent)("vue-easy-lightbox")
 
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_1, [
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_1, [
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_FileUpload, {
       multiple: true,
       drop: true,
@@ -776,13 +773,13 @@ const ImageUploadvue_type_template_id_b78313d4_scoped_true_render = /*#__PURE__*
       extensions: "gif,jpg,jpeg,png,webp",
       accept: "image/png,image/gif,image/jpeg,image/webp",
       modelValue: _ctx.files,
-      "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => (_ctx.files = $event)),
+      "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => (_ctx.files = $event)),
       onInputFilter: _ctx.inputFilter,
       onInputFile: _ctx.inputFile,
       ref: "upload",
       class: "file-upload"
     }, {
-      default: ImageUploadvue_type_template_id_b78313d4_scoped_true_withId(() => [
+      default: (0,runtime_dom_esm_bundler_js_.withCtx)(() => [
         ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_2,
         ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_3,
         ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_4,
@@ -792,18 +789,18 @@ const ImageUploadvue_type_template_id_b78313d4_scoped_true_render = /*#__PURE__*
       _: 1
     }, 8, ["modelValue", "onInputFilter", "onInputFile"]),
     (_ctx.images.length > 0)
-      ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_7, [
-          ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)(_ctx.images, (src, index) => {
-            return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", {
+      ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_7, [
+          ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createElementBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)(_ctx.images, (src, index) => {
+            return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", {
               key: index,
               class: "pic",
               onClick: () => _ctx.showImg(index)
             }, [
-              (0,runtime_dom_esm_bundler_js_.createVNode)("img", {
+              (0,runtime_dom_esm_bundler_js_.createElementVNode)("img", {
                 height: "140",
                 src: src
-              }, null, 8, ["src"])
-            ], 8, ["onClick"]))
+              }, null, 8, ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_9)
+            ], 8, ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_8))
           }), 128)),
           (0,runtime_dom_esm_bundler_js_.createVNode)(_component_vue_easy_lightbox, {
             escDisabled: "",
@@ -816,7 +813,7 @@ const ImageUploadvue_type_template_id_b78313d4_scoped_true_render = /*#__PURE__*
         ]))
       : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true)
   ]))
-})
+}
 ;// CONCATENATED MODULE: ./src/components/ImageUpload.vue?vue&type=template&id=b78313d4&scoped=true
 
 // EXTERNAL MODULE: ./node_modules/vue-upload-component/dist/vue-upload-component.js
@@ -887,53 +884,55 @@ ImageUploadvue_type_script_lang_ts.__scopeId = "data-v-b78313d4"
 /* harmony default export */ const ImageUpload = (ImageUploadvue_type_script_lang_ts);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/ImagePreview.vue?vue&type=template&id=bf8769da&scoped=true
 
-const ImagePreviewvue_type_template_id_bf8769da_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-bf8769da")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-bf8769da")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-bf8769da")
 const ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_1 = { class: "image-preview" }
 const ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_2 = { id: "save" }
-const ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("br", null, null, -1)
-const ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_4 = {
+const ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_3 = ["value"]
+const ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("br", null, null, -1)
+const ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_5 = {
   key: 0,
   class: "image-container"
 }
+const ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_6 = ["onClick"]
+const ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_7 = ["src"]
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const ImagePreviewvue_type_template_id_bf8769da_scoped_true_render = /*#__PURE__*/ImagePreviewvue_type_template_id_bf8769da_scoped_true_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+function ImagePreviewvue_type_template_id_bf8769da_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_vue_easy_lightbox = (0,runtime_dom_esm_bundler_js_.resolveComponent)("vue-easy-lightbox")
 
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_1, [
-    (0,runtime_dom_esm_bundler_js_.createVNode)("div", ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_2, [
-      (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("select", {
-        "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => ($data.filetype = $event))
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_1, [
+    (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_2, [
+      (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createElementVNode)("select", {
+        "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => ($data.filetype = $event))
       }, [
-        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)($data.options, (option) => {
-          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("option", {
+        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createElementBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)($data.options, (option) => {
+          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("option", {
             value: option.value,
             key: option.text
-          }, (0,runtime_dom_esm_bundler_js_.toDisplayString)(option.text), 9, ["value"]))
+          }, (0,runtime_dom_esm_bundler_js_.toDisplayString)(option.text), 9, ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_3))
         }), 128))
       ], 512), [
         [runtime_dom_esm_bundler_js_.vModelSelect, $data.filetype]
       ]),
-      (0,runtime_dom_esm_bundler_js_.createVNode)("p", {
-        onClick: _cache[2] || (_cache[2] = (...args) => ($options.downloadZip && $options.downloadZip(...args)))
+      (0,runtime_dom_esm_bundler_js_.createElementVNode)("p", {
+        onClick: _cache[1] || (_cache[1] = (...args) => ($options.downloadZip && $options.downloadZip(...args)))
       }, "save files")
     ]),
-    ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_3,
+    ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_4,
     ($data.imgs.length > 0)
-      ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_4, [
-          ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)($data.imgs, (src, index) => {
-            return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", {
+      ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_5, [
+          ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createElementBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)($data.imgs, (src, index) => {
+            return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", {
               key: index,
               class: "pic",
               onClick: () => $options.showImg(index)
             }, [
-              (0,runtime_dom_esm_bundler_js_.createVNode)("img", {
+              (0,runtime_dom_esm_bundler_js_.createElementVNode)("img", {
                 height: "140",
                 src: src
-              }, null, 8, ["src"])
-            ], 8, ["onClick"]))
+              }, null, 8, ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_7)
+            ], 8, ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_6))
           }), 128))
         ]))
       : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true),
@@ -946,7 +945,7 @@ const ImagePreviewvue_type_template_id_bf8769da_scoped_true_render = /*#__PURE__
       onHide: $options.handleHide
     }, null, 8, ["visible", "imgs", "index", "onHide"])
   ]))
-})
+}
 ;// CONCATENATED MODULE: ./src/components/ImagePreview.vue?vue&type=template&id=bf8769da&scoped=true
 
 // EXTERNAL MODULE: ./node_modules/file-saver/dist/FileSaver.min.js
@@ -1072,42 +1071,41 @@ ImagePreviewvue_type_script_lang_ts.__scopeId = "data-v-bf8769da"
 /* harmony default export */ const ImagePreview = (ImagePreviewvue_type_script_lang_ts);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Config.vue?vue&type=template&id=2ba0a7b8&scoped=true
 
-const Configvue_type_template_id_2ba0a7b8_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-2ba0a7b8")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-2ba0a7b8")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-2ba0a7b8")
 const Configvue_type_template_id_2ba0a7b8_scoped_true_hoisted_1 = {
   key: 1,
   class: "config"
 }
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const Configvue_type_template_id_2ba0a7b8_scoped_true_render = /*#__PURE__*/Configvue_type_template_id_2ba0a7b8_scoped_true_withId((_ctx, _cache, $props, $setup, $data, $options) => {
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, [
+function Configvue_type_template_id_2ba0a7b8_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)(runtime_dom_esm_bundler_js_.Fragment, null, [
     ($props.plugins)
-      ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("button", {
+      ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("button", {
           key: 0,
-          onClick: _cache[1] || (_cache[1] = (...args) => ($options.generateConfigUrlBase64 && $options.generateConfigUrlBase64(...args)))
+          onClick: _cache[0] || (_cache[0] = (...args) => ($options.generateConfigUrlBase64 && $options.generateConfigUrlBase64(...args)))
         }, " generate actual config url "))
       : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true),
     ($data.base64config)
-      ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Configvue_type_template_id_2ba0a7b8_scoped_true_hoisted_1, [
-          (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("textarea", {
-            "onUpdate:modelValue": _cache[2] || (_cache[2] = $event => ($data.base64config = $event)),
+      ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Configvue_type_template_id_2ba0a7b8_scoped_true_hoisted_1, [
+          (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createElementVNode)("textarea", {
+            "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => ($data.base64config = $event)),
             readonly: true
           }, null, 512), [
             [runtime_dom_esm_bundler_js_.vModelText, $data.base64config]
           ])
         ]))
       : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true),
-    (0,runtime_dom_esm_bundler_js_.createVNode)("button", {
-      onClick: _cache[3] || (_cache[3] = (...args) => ($options.generateLennaConfig && $options.generateLennaConfig(...args)))
+    (0,runtime_dom_esm_bundler_js_.createElementVNode)("button", {
+      onClick: _cache[2] || (_cache[2] = (...args) => ($options.generateLennaConfig && $options.generateLennaConfig(...args)))
     }, "lenna.yml")
   ], 64))
-})
+}
 ;// CONCATENATED MODULE: ./src/components/Config.vue?vue&type=template&id=2ba0a7b8&scoped=true
 
 // EXTERNAL MODULE: ./node_modules/yaml/browser/index.js
-var browser = __webpack_require__(741);
+var browser = __webpack_require__(6);
 var browser_default = /*#__PURE__*/__webpack_require__.n(browser);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Config.vue?vue&type=script&lang=js
 
@@ -1186,27 +1184,27 @@ Configvue_type_script_lang_js.__scopeId = "data-v-2ba0a7b8"
 /* harmony default export */ const Config = (Configvue_type_script_lang_js);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Help.vue?vue&type=template&id=c239f060&scoped=true
 
-const Helpvue_type_template_id_c239f060_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-c239f060")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-c239f060")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-c239f060")
 const Helpvue_type_template_id_c239f060_scoped_true_hoisted_1 = { class: "help" }
-const Helpvue_type_template_id_c239f060_scoped_true_hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("h2", null, "How to Convert Images", -1)
-const Helpvue_type_template_id_c239f060_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("ol", null, [
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("li", null, "Drop images into left box."),
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("li", null, "Enable the plugins you want to use in convertion."),
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("li", null, "Order the plugins via drag and drop"),
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("li", null, "Press the process button."),
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("li", null, "Select file type you want to download on the right."),
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("li", null, "Download your converted images compressed as zip.")
+const Helpvue_type_template_id_c239f060_scoped_true_hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("h2", null, "How to Convert Images", -1)
+const Helpvue_type_template_id_c239f060_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("ol", null, [
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("li", null, "Drop images into left box."),
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("li", null, "Enable the plugins you want to use in convertion."),
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("li", null, "Order the plugins via drag and drop"),
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("li", null, "Press the process button."),
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("li", null, "Select file type you want to download on the right."),
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("li", null, "Download your converted images compressed as zip.")
 ], -1)
+const Helpvue_type_template_id_c239f060_scoped_true_hoisted_4 = [
+  Helpvue_type_template_id_c239f060_scoped_true_hoisted_2,
+  Helpvue_type_template_id_c239f060_scoped_true_hoisted_3
+]
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const Helpvue_type_template_id_c239f060_scoped_true_render = /*#__PURE__*/Helpvue_type_template_id_c239f060_scoped_true_withId((_ctx, _cache) => {
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Helpvue_type_template_id_c239f060_scoped_true_hoisted_1, [
-    Helpvue_type_template_id_c239f060_scoped_true_hoisted_2,
-    Helpvue_type_template_id_c239f060_scoped_true_hoisted_3
-  ]))
-})
+function Helpvue_type_template_id_c239f060_scoped_true_render(_ctx, _cache) {
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Helpvue_type_template_id_c239f060_scoped_true_hoisted_1, Helpvue_type_template_id_c239f060_scoped_true_hoisted_4))
+}
 ;// CONCATENATED MODULE: ./src/components/Help.vue?vue&type=template&id=c239f060&scoped=true
 
 ;// CONCATENATED MODULE: ./src/components/Help.vue
@@ -1380,29 +1378,28 @@ Homevue_type_script_lang_js.__scopeId = "data-v-f0a67292"
 /* harmony default export */ const Home = (Homevue_type_script_lang_js);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/views/About.vue?vue&type=template&id=5993e892&scoped=true
 
-const Aboutvue_type_template_id_5993e892_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-5993e892")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-5993e892")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-5993e892")
 const Aboutvue_type_template_id_5993e892_scoped_true_hoisted_1 = { class: "about" }
-const Aboutvue_type_template_id_5993e892_scoped_true_hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("h1", null, "About Lenna Project", -1)
-const Aboutvue_type_template_id_5993e892_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("p", null, " Lenna is a library for image processing algorithms. The web page allows to test and use them. ", -1)
+const Aboutvue_type_template_id_5993e892_scoped_true_hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("h1", null, "About Lenna Project", -1)
+const Aboutvue_type_template_id_5993e892_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("p", null, " Lenna is a library for image processing algorithms. The web page allows to test and use them. ", -1)
 const Aboutvue_type_template_id_5993e892_scoped_true_hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createStaticVNode)("<h2 data-v-5993e892>Thanks</h2><ul data-v-5993e892><li data-v-5993e892>Silvia (<a href=\"https://github.com/silvia-odwyer/photon\" data-v-5993e892>photon</a>)</li></ul><h2 data-v-5993e892>Plugins</h2><p data-v-5993e892> Lenna allows to plug in more algorithms. The plugins can be activated for use in the <a href=\"https://lenna.app/marketplace/\" data-v-5993e892>marketplace</a>. Some examples can be found at <a href=\"https://github.com/lenna-project/lenna-plugins\" data-v-5993e892>lenna-project/lenna-plugins</a> on github. <br data-v-5993e892> Following a list of available plugins: <ul data-v-5993e892><li data-v-5993e892><b data-v-5993e892>blur</b> - Blurs the image. The strength can be configured.</li><li data-v-5993e892><b data-v-5993e892>dramatic</b> - Gives the image a dramatic touch.</li><li data-v-5993e892><b data-v-5993e892>exif</b> - Allows to clear exif data of the image.</li><li data-v-5993e892><b data-v-5993e892>rotate</b> - Rotates the image.</li><li data-v-5993e892><b data-v-5993e892>canny</b> - Shows edges of objects in the image.</li></ul></p><h2 data-v-5993e892>Jupyter Notebooks</h2> View some notebooks <a href=\"/jupyter\" data-v-5993e892>here</a> to see how the plugins can be used in python. <h2 data-v-5993e892>Command Line Interface</h2>", 9)
-const _hoisted_13 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("iframe", {
+const _hoisted_13 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("iframe", {
   src: "https://snapcraft.io/lenna-cli/embedded?button=black&summary=true",
   frameborder: "0",
   width: "100%",
   height: "380px",
   style: {"border":"1px solid #CCC","border-radius":"2px"}
 }, null, -1)
-const _hoisted_14 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("p", null, [
+const _hoisted_14 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("p", null, [
   /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)(" A command line interface allows to use the algorithms and run them on multiple images at once. The source for "),
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("a", { href: "https://github.com/lenna-project/lenna-cli" }, "lenna-cli"),
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("a", { href: "https://github.com/lenna-project/lenna-cli" }, "lenna-cli"),
   /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)(" can be found on github. ")
 ], -1)
-const _hoisted_15 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("img", { src: "https://raw.githubusercontent.com/lenna-project/lenna-cli/main/docs/images/run.gif" }, null, -1)
-const _hoisted_16 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("h2", null, "Desktop App", -1)
-const _hoisted_17 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("a", { href: "https://sourceforge.net/projects/lenna/files/latest/download" }, [
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("img", {
+const _hoisted_15 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("img", { src: "https://raw.githubusercontent.com/lenna-project/lenna-cli/main/docs/images/run.gif" }, null, -1)
+const _hoisted_16 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("h2", null, "Desktop App", -1)
+const _hoisted_17 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("a", { href: "https://sourceforge.net/projects/lenna/files/latest/download" }, [
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("img", {
     alt: "Download lenna",
     src: "https://a.fsdn.com/con/app/sf-download-button",
     width: "276",
@@ -1410,26 +1407,26 @@ const _hoisted_17 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("a"
     srcset: "https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"
   })
 ], -1)
-const _hoisted_18 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("br", null, null, -1)
-const _hoisted_19 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("iframe", {
+const _hoisted_18 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("br", null, null, -1)
+const _hoisted_19 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("iframe", {
   src: "https://snapcraft.io/lenna/embedded?button=black&summary=true&screenshot=true",
   frameborder: "0",
   width: "100%",
   height: "620px",
   style: {"border":"1px solid #CCC","border-radius":"2px"}
 }, null, -1)
-const _hoisted_20 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("h2", null, "Desktop Web App", -1)
-const _hoisted_21 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("a", { href: "https://github.com/lenna-project/lenna-gui/releases/latest" }, "Lenna GUI", -1)
+const _hoisted_20 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("h2", null, "Desktop Web App", -1)
+const _hoisted_21 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("a", { href: "https://github.com/lenna-project/lenna-gui/releases/latest" }, "Lenna GUI", -1)
 const _hoisted_22 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)(" This App supports convertion of images in folders. ")
-const _hoisted_23 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("br", null, null, -1)
+const _hoisted_23 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("br", null, null, -1)
 const _hoisted_24 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)(" You can find installers for Mac, Linux and Windows. ")
-const _hoisted_25 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("br", null, null, -1)
+const _hoisted_25 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("br", null, null, -1)
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const Aboutvue_type_template_id_5993e892_scoped_true_render = /*#__PURE__*/Aboutvue_type_template_id_5993e892_scoped_true_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+function Aboutvue_type_template_id_5993e892_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_Help = (0,runtime_dom_esm_bundler_js_.resolveComponent)("Help")
 
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Aboutvue_type_template_id_5993e892_scoped_true_hoisted_1, [
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Aboutvue_type_template_id_5993e892_scoped_true_hoisted_1, [
     Aboutvue_type_template_id_5993e892_scoped_true_hoisted_2,
     Aboutvue_type_template_id_5993e892_scoped_true_hoisted_3,
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_Help),
@@ -1448,7 +1445,7 @@ const Aboutvue_type_template_id_5993e892_scoped_true_render = /*#__PURE__*/About
     _hoisted_24,
     _hoisted_25
   ]))
-})
+}
 ;// CONCATENATED MODULE: ./src/views/About.vue?vue&type=template&id=5993e892&scoped=true
 
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/views/About.vue?vue&type=script&lang=js

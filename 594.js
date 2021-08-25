@@ -9,11 +9,6 @@ __webpack_require__.r(__webpack_exports__);
 
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
-  "$computed": () => (/* reexport */ $computed),
-  "$fromRefs": () => (/* reexport */ $fromRefs),
-  "$raw": () => (/* reexport */ $raw),
-  "$ref": () => (/* reexport */ $ref),
-  "$shallowRef": () => (/* reexport */ $shallowRef),
   "BaseTransition": () => (/* reexport */ BaseTransition),
   "Comment": () => (/* reexport */ Comment$1),
   "EffectScope": () => (/* reexport */ EffectScope),
@@ -272,6 +267,13 @@ const isBooleanAttr = /*#__PURE__*/ shared_esm_bundler_makeMap(specialBooleanAtt
     `,async,autofocus,autoplay,controls,default,defer,disabled,hidden,` +
     `loop,open,required,reversed,scoped,seamless,` +
     `checked,muted,multiple,selected`);
+/**
+ * Boolean attributes should be included if the value is truthy or ''.
+ * e.g. <select multiple> compiles to { multiple: '' }
+ */
+function includeBooleanAttr(value) {
+    return !!value || value === '';
+}
 const unsafeAttrCharRE = /[>/="'\u0009\u000a\u000c\u0020]/;
 const attrValidationCache = {};
 function isSSRSafeAttrName(name) {
@@ -581,7 +583,9 @@ function looseIndexOf(arr, val) {
 const toDisplayString = (val) => {
     return val == null
         ? ''
-        : shared_esm_bundler_isArray(val) || (isObject(val) && val.toString === objectToString)
+        : shared_esm_bundler_isArray(val) ||
+            (isObject(val) &&
+                (val.toString === objectToString || !isFunction(val.toString)))
             ? JSON.stringify(val, replacer, 2)
             : String(val);
 };
@@ -1653,13 +1657,13 @@ function isRef(r) {
     return Boolean(r && r.__v_isRef === true);
 }
 function ref(value) {
-    return createRef(value);
+    return createRef(value, false);
 }
 function shallowRef(value) {
     return createRef(value, true);
 }
 class RefImpl {
-    constructor(value, _shallow = false) {
+    constructor(value, _shallow) {
         this._shallow = _shallow;
         this.dep = undefined;
         this.__v_isRef = true;
@@ -1679,7 +1683,7 @@ class RefImpl {
         }
     }
 }
-function createRef(rawValue, shallow = false) {
+function createRef(rawValue, shallow) {
     if (isRef(rawValue)) {
         return rawValue;
     }
@@ -1749,9 +1753,8 @@ class ObjectRefImpl {
     }
 }
 function toRef(object, key) {
-    return isRef(object[key])
-        ? object[key]
-        : new ObjectRefImpl(object, key);
+    const val = object[key];
+    return isRef(val) ? val : new ObjectRefImpl(object, key);
 }
 
 class ComputedRefImpl {
@@ -2621,8 +2624,7 @@ function renderComponentRoot(instance) {
             const keys = Object.keys(fallthroughAttrs);
             const { shapeFlag } = root;
             if (keys.length) {
-                if (shapeFlag & 1 /* ELEMENT */ ||
-                    shapeFlag & 6 /* COMPONENT */) {
+                if (shapeFlag & (1 /* ELEMENT */ | 6 /* COMPONENT */)) {
                     if (propsOptions && keys.some(isModelListener)) {
                         // If a v-model listener (onUpdate:xxx) has a corresponding declared
                         // prop, it indicates this component expects to handle v-model and
@@ -2728,8 +2730,7 @@ const filterModelListeners = (attrs, props) => {
     return res;
 };
 const isElementRoot = (vnode) => {
-    return (vnode.shapeFlag & 6 /* COMPONENT */ ||
-        vnode.shapeFlag & 1 /* ELEMENT */ ||
+    return (vnode.shapeFlag & (6 /* COMPONENT */ | 1 /* ELEMENT */) ||
         vnode.type === Comment$1 // potential v-if branch switch
     );
 };
@@ -4826,9 +4827,9 @@ const normalizeSlotValue = (value) => shared_esm_bundler_isArray(value)
     ? value.map(normalizeVNode)
     : [normalizeVNode(value)];
 const normalizeSlot = (key, rawSlot, ctx) => {
-    const normalized = withCtx((props) => {
+    const normalized = withCtx((...args) => {
         if (false) {}
-        return normalizeSlotValue(rawSlot(props));
+        return normalizeSlotValue(rawSlot(...args));
     }, ctx);
     normalized._c = false;
     return normalized;
@@ -5297,8 +5298,7 @@ function createHydrationFunctions(rendererInternals) {
             if (props) {
                 if (forcePatchValue ||
                     !optimized ||
-                    patchFlag & 16 /* FULL_PROPS */ ||
-                    patchFlag & 32 /* HYDRATE_EVENTS */) {
+                    patchFlag & (16 /* FULL_PROPS */ | 32 /* HYDRATE_EVENTS */)) {
                     for (const key in props) {
                         if ((forcePatchValue && key.endsWith('value')) ||
                             (isOn(key) && !isReservedProp(key))) {
@@ -5786,6 +5786,15 @@ function baseCreateRenderer(options, createHydrationFns) {
             invokeDirectiveHook(n2, n1, parentComponent, 'beforeUpdate');
         }
         if (false) {}
+        const areChildrenSVG = isSVG && n2.type !== 'foreignObject';
+        if (dynamicChildren) {
+            patchBlockChildren(n1.dynamicChildren, dynamicChildren, el, parentComponent, parentSuspense, areChildrenSVG, slotScopeIds);
+            if (false) {}
+        }
+        else if (!optimized) {
+            // full diff
+            patchChildren(n1, n2, el, null, parentComponent, parentSuspense, areChildrenSVG, slotScopeIds, false);
+        }
         if (patchFlag > 0) {
             // the presence of a patchFlag means this element's render code was
             // generated by the compiler and can take the fast path.
@@ -5840,15 +5849,6 @@ function baseCreateRenderer(options, createHydrationFns) {
             // unoptimized, full diff
             patchProps(el, n2, oldProps, newProps, parentComponent, parentSuspense, isSVG);
         }
-        const areChildrenSVG = isSVG && n2.type !== 'foreignObject';
-        if (dynamicChildren) {
-            patchBlockChildren(n1.dynamicChildren, dynamicChildren, el, parentComponent, parentSuspense, areChildrenSVG, slotScopeIds);
-            if (false) {}
-        }
-        else if (!optimized) {
-            // full diff
-            patchChildren(n1, n2, el, null, parentComponent, parentSuspense, areChildrenSVG, slotScopeIds, false);
-        }
         if ((vnodeHook = newProps.onVnodeUpdated) || dirs) {
             queuePostRenderEffect(() => {
                 vnodeHook && invokeVNodeHook(vnodeHook, parentComponent, n2, n1);
@@ -5873,8 +5873,7 @@ function baseCreateRenderer(options, createHydrationFns) {
                     // which also requires the correct parent container
                     !isSameVNodeType(oldVNode, newVNode) ||
                     // - In the case of a component, it could contain anything.
-                    oldVNode.shapeFlag & 6 /* COMPONENT */ ||
-                    oldVNode.shapeFlag & 64 /* TELEPORT */)
+                    oldVNode.shapeFlag & (6 /* COMPONENT */ | 64 /* TELEPORT */))
                 ? hostParentNode(oldVNode.el)
                 : // In other cases, the parent container is not actually used so we
                     // just pass the block element here to avoid a DOM parentNode call.
@@ -6034,13 +6033,15 @@ function baseCreateRenderer(options, createHydrationFns) {
                 let vnodeHook;
                 const { el, props } = initialVNode;
                 const { bm, m, parent } = instance;
+                const isAsyncWrapperVNode = isAsyncWrapper(initialVNode);
                 effect.allowRecurse = false;
                 // beforeMount hook
                 if (bm) {
                     invokeArrayFns(bm);
                 }
                 // onVnodeBeforeMount
-                if ((vnodeHook = props && props.onVnodeBeforeMount)) {
+                if (!isAsyncWrapperVNode &&
+                    (vnodeHook = props && props.onVnodeBeforeMount)) {
                     invokeVNodeHook(vnodeHook, parent, initialVNode);
                 }
                 effect.allowRecurse = true;
@@ -6054,7 +6055,7 @@ function baseCreateRenderer(options, createHydrationFns) {
                         hydrateNode(el, instance.subTree, instance, parentSuspense, null);
                         if ((false)) {}
                     };
-                    if (isAsyncWrapper(initialVNode)) {
+                    if (isAsyncWrapperVNode) {
                         initialVNode.type.__asyncLoader().then(
                         // note: we are moving the render call into an async callback,
                         // which means it won't track dependencies - but it's ok because
@@ -6080,7 +6081,8 @@ function baseCreateRenderer(options, createHydrationFns) {
                     queuePostRenderEffect(m, parentSuspense);
                 }
                 // onVnodeMounted
-                if ((vnodeHook = props && props.onVnodeMounted)) {
+                if (!isAsyncWrapperVNode &&
+                    (vnodeHook = props && props.onVnodeMounted)) {
                     const scopedInitialVNode = initialVNode;
                     queuePostRenderEffect(() => invokeVNodeHook(vnodeHook, parent, scopedInitialVNode), parentSuspense);
                 }
@@ -6105,6 +6107,8 @@ function baseCreateRenderer(options, createHydrationFns) {
                 let originNext = next;
                 let vnodeHook;
                 if ((false)) {}
+                // Disallow component effect recursion during pre-lifecycle hooks.
+                effect.allowRecurse = false;
                 if (next) {
                     next.el = vnode.el;
                     updateComponentPreRender(instance, next, optimized);
@@ -6112,8 +6116,6 @@ function baseCreateRenderer(options, createHydrationFns) {
                 else {
                     next = vnode;
                 }
-                // Disallow component effect recursion during pre-lifecycle hooks.
-                effect.allowRecurse = false;
                 // beforeUpdate hook
                 if (bu) {
                     invokeArrayFns(bu);
@@ -6495,8 +6497,10 @@ function baseCreateRenderer(options, createHydrationFns) {
             return;
         }
         const shouldInvokeDirs = shapeFlag & 1 /* ELEMENT */ && dirs;
+        const shouldInvokeVnodeHook = !isAsyncWrapper(vnode);
         let vnodeHook;
-        if ((vnodeHook = props && props.onVnodeBeforeUnmount)) {
+        if (shouldInvokeVnodeHook &&
+            (vnodeHook = props && props.onVnodeBeforeUnmount)) {
             invokeVNodeHook(vnodeHook, parentComponent, vnode);
         }
         if (shapeFlag & 6 /* COMPONENT */) {
@@ -6521,8 +6525,8 @@ function baseCreateRenderer(options, createHydrationFns) {
                 unmountChildren(dynamicChildren, parentComponent, parentSuspense, false, true);
             }
             else if ((type === Fragment &&
-                (patchFlag & 128 /* KEYED_FRAGMENT */ ||
-                    patchFlag & 256 /* UNKEYED_FRAGMENT */)) ||
+                patchFlag &
+                    (128 /* KEYED_FRAGMENT */ | 256 /* UNKEYED_FRAGMENT */)) ||
                 (!optimized && shapeFlag & 16 /* ARRAY_CHILDREN */)) {
                 unmountChildren(children, parentComponent, parentSuspense);
             }
@@ -6530,7 +6534,9 @@ function baseCreateRenderer(options, createHydrationFns) {
                 remove(vnode);
             }
         }
-        if ((vnodeHook = props && props.onVnodeUnmounted) || shouldInvokeDirs) {
+        if ((shouldInvokeVnodeHook &&
+            (vnodeHook = props && props.onVnodeUnmounted)) ||
+            shouldInvokeDirs) {
             queuePostRenderEffect(() => {
                 vnodeHook && invokeVNodeHook(vnodeHook, parentComponent, vnode);
                 shouldInvokeDirs &&
@@ -7436,7 +7442,7 @@ function normalizeChildren(vnode, children) {
         type = 16 /* ARRAY_CHILDREN */;
     }
     else if (typeof children === 'object') {
-        if (shapeFlag & 1 /* ELEMENT */ || shapeFlag & 64 /* TELEPORT */) {
+        if (shapeFlag & (1 /* ELEMENT */ | 64 /* TELEPORT */)) {
             // Normalize slot to plain children for plain element and Teleport
             const slot = children.default;
             if (slot) {
@@ -9182,20 +9188,8 @@ function isMemoSame(cached, memo) {
     return true;
 }
 
-function $ref() { }
-function $shallowRef(arg) {
-    return arg;
-}
-function $computed() { }
-function $fromRefs() {
-    return null;
-}
-function $raw() {
-    return null;
-}
-
 // Core API ------------------------------------------------------------------
-const version = "3.2.2";
+const version = "3.2.6";
 const _ssrUtils = {
     createComponentInstance,
     setupComponent,
@@ -9417,7 +9411,7 @@ function patchAttr(el, key, value, isSVG, instance) {
         // note we are only checking boolean attributes that don't have a
         // corresponding dom prop of the same name here.
         const isBoolean = isSpecialBooleanAttr(key);
-        if (value == null || (isBoolean && value === false)) {
+        if (value == null || (isBoolean && !includeBooleanAttr(value))) {
             el.removeAttribute(key);
         }
         else {
@@ -9455,9 +9449,9 @@ prevChildren, parentComponent, parentSuspense, unmountChildren) {
     }
     if (value === '' || value == null) {
         const type = typeof el[key];
-        if (value === '' && type === 'boolean') {
+        if (type === 'boolean') {
             // e.g. <select multiple> compiles to { multiple: '' }
-            el[key] = true;
+            el[key] = includeBooleanAttr(value);
             return;
         }
         else if (value == null && type === 'string') {

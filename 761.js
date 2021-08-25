@@ -33,8 +33,8 @@ __webpack_require__.d(__webpack_exports__, {
   "viewDepthKey": () => (/* binding */ viewDepthKey)
 });
 
-// EXTERNAL MODULE: consume shared module (default) vue@^3.2.2 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
-var runtime_dom_esm_bundler_js_ = __webpack_require__(214);
+// EXTERNAL MODULE: consume shared module (default) vue@^3.2.6 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
+var runtime_dom_esm_bundler_js_ = __webpack_require__(855);
 ;// CONCATENATED MODULE: ./node_modules/@vue/devtools-api/lib/esm/env.js
 function getDevtoolsGlobalHook() {
     return getTarget().__VUE_DEVTOOLS_GLOBAL_HOOK__;

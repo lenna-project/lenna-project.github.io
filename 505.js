@@ -1,15 +1,15 @@
+"use strict";
 (self["webpackChunk_lenna_project_lenna_web"] = self["webpackChunk_lenna_project_lenna_web"] || []).push([[505],{
 
 /***/ 505:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// EXTERNAL MODULE: consume shared module (default) vue@^3.0.11 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
-var runtime_dom_esm_bundler_js_ = __webpack_require__(748);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/App.vue?vue&type=template&id=12a8c975
+// EXTERNAL MODULE: consume shared module (default) vue@^3.2.6 (strict) (fallback: ./node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js)
+var runtime_dom_esm_bundler_js_ = __webpack_require__(855);
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/App.vue?vue&type=template&id=0acc35d2
 
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -17,61 +17,60 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_router_view = (0,runtime_dom_esm_bundler_js_.resolveComponent)("router-view")
   const _component_Footer = (0,runtime_dom_esm_bundler_js_.resolveComponent)("Footer")
 
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, [
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", null, [
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_Navbar),
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_router_view),
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_Footer)
-  ], 64))
+  ]))
 }
-;// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=12a8c975
+;// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=0acc35d2
 
 ;// CONCATENATED MODULE: ./src/assets/banner.png
 /* harmony default export */ const banner = (__webpack_require__.p + "aad257b5f9f4288436c6e6e0ebb2e336.png");
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Navbar.vue?vue&type=template&id=5769fc95&scoped=true
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Navbar.vue?vue&type=template&id=48f88512&scoped=true
 
 
 
-const _withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-5769fc95")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-5769fc95")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-48f88512")
 const _hoisted_1 = { class: "navbar" }
-const _hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("div", { id: "banner" }, [
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("img", { src: banner })
+const _hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("div", { id: "banner" }, [
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("img", { src: banner })
 ], -1)
 const _hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)("Home")
-const _hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("a", { href: "marketplace" }, "Marketplace", -1)
+const _hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("a", { href: "marketplace" }, "Marketplace", -1)
 const _hoisted_5 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)("About")
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const Navbarvue_type_template_id_5769fc95_scoped_true_render = /*#__PURE__*/_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+function Navbarvue_type_template_id_48f88512_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_router_link = (0,runtime_dom_esm_bundler_js_.resolveComponent)("router-link")
 
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", _hoisted_1, [
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", _hoisted_1, [
     _hoisted_2,
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_router_link, { to: "/" }, {
-      default: _withId(() => [
+      default: (0,runtime_dom_esm_bundler_js_.withCtx)(() => [
         _hoisted_3
       ]),
       _: 1
     }),
     _hoisted_4,
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_router_link, { to: "/about" }, {
-      default: _withId(() => [
+      default: (0,runtime_dom_esm_bundler_js_.withCtx)(() => [
         _hoisted_5
       ]),
       _: 1
     })
   ]))
-})
-;// CONCATENATED MODULE: ./src/components/Navbar.vue?vue&type=template&id=5769fc95&scoped=true
+}
+;// CONCATENATED MODULE: ./src/components/Navbar.vue?vue&type=template&id=48f88512&scoped=true
 
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Navbar.vue?vue&type=script&lang=js
+;// CONCATENATED MODULE: ./node_modules/ts-loader/index.js??clonedRuleSet-1!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Navbar.vue?vue&type=script&lang=ts
 
-/* harmony default export */ const Navbarvue_type_script_lang_js = ({
-  name: "Navbar",
-});
+/* harmony default export */ const Navbarvue_type_script_lang_ts = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
+    name: "Navbar",
+}));
 
-;// CONCATENATED MODULE: ./src/components/Navbar.vue?vue&type=script&lang=js
+;// CONCATENATED MODULE: ./src/components/Navbar.vue?vue&type=script&lang=ts
  
 ;// CONCATENATED MODULE: ./src/components/Navbar.vue
 
@@ -79,28 +78,27 @@ const Navbarvue_type_template_id_5769fc95_scoped_true_render = /*#__PURE__*/_wit
 
 
 ;
-Navbarvue_type_script_lang_js.render = Navbarvue_type_template_id_5769fc95_scoped_true_render
-Navbarvue_type_script_lang_js.__scopeId = "data-v-5769fc95"
+Navbarvue_type_script_lang_ts.render = Navbarvue_type_template_id_48f88512_scoped_true_render
+Navbarvue_type_script_lang_ts.__scopeId = "data-v-48f88512"
 
-/* harmony default export */ const Navbar = (Navbarvue_type_script_lang_js);
+/* harmony default export */ const Navbar = (Navbarvue_type_script_lang_ts);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Footer.vue?vue&type=template&id=0add3bce&scoped=true
 
-const Footervue_type_template_id_0add3bce_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-0add3bce")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-0add3bce")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-0add3bce")
 const Footervue_type_template_id_0add3bce_scoped_true_hoisted_1 = { class: "footer" }
 const Footervue_type_template_id_0add3bce_scoped_true_hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)(" Convert images online without upload of your data. ")
-const Footervue_type_template_id_0add3bce_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("a", { href: "https://lenna.app" }, " lenna.app ", -1)
+const Footervue_type_template_id_0add3bce_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("a", { href: "https://lenna.app" }, " lenna.app ", -1)
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const Footervue_type_template_id_0add3bce_scoped_true_render = /*#__PURE__*/Footervue_type_template_id_0add3bce_scoped_true_withId((_ctx, _cache) => {
+function Footervue_type_template_id_0add3bce_scoped_true_render(_ctx, _cache) {
   const _component_v_footer = (0,runtime_dom_esm_bundler_js_.resolveComponent)("v-footer")
 
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Footervue_type_template_id_0add3bce_scoped_true_hoisted_1, [
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Footervue_type_template_id_0add3bce_scoped_true_hoisted_1, [
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_v_footer, null, {
-      default: Footervue_type_template_id_0add3bce_scoped_true_withId(() => [
+      default: (0,runtime_dom_esm_bundler_js_.withCtx)(() => [
         Footervue_type_template_id_0add3bce_scoped_true_hoisted_2,
-        (0,runtime_dom_esm_bundler_js_.createVNode)("p", null, [
+        (0,runtime_dom_esm_bundler_js_.createElementVNode)("p", null, [
           (0,runtime_dom_esm_bundler_js_.createTextVNode)(" © " + (0,runtime_dom_esm_bundler_js_.toDisplayString)(new Date().getFullYear()) + " — ", 1),
           Footervue_type_template_id_0add3bce_scoped_true_hoisted_3
         ])
@@ -108,7 +106,7 @@ const Footervue_type_template_id_0add3bce_scoped_true_render = /*#__PURE__*/Foot
       _: 1
     })
   ]))
-})
+}
 ;// CONCATENATED MODULE: ./src/components/Footer.vue?vue&type=template&id=0add3bce&scoped=true
 
 ;// CONCATENATED MODULE: ./src/components/Footer.vue
@@ -142,47 +140,44 @@ script.__scopeId = "data-v-0add3bce"
 Appvue_type_script_lang_js.render = render
 
 /* harmony default export */ const App = (Appvue_type_script_lang_js);
-// EXTERNAL MODULE: consume shared module (default) vue-router@^4.0.6 (strict) (fallback: ./node_modules/vue-router/dist/vue-router.esm-bundler.js)
-var vue_router_esm_bundler_js_ = __webpack_require__(755);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/views/Home.vue?vue&type=template&id=f0a67292&scoped=true
+// EXTERNAL MODULE: consume shared module (default) vue-router@^4.0.11 (strict) (fallback: ./node_modules/vue-router/dist/vue-router.esm-bundler.js)
+var vue_router_esm_bundler_js_ = __webpack_require__(986);
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/views/Home.vue?vue&type=template&id=0e5fdee8&scoped=true
 
-const Homevue_type_template_id_f0a67292_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-f0a67292")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-f0a67292")
-const Homevue_type_template_id_f0a67292_scoped_true_hoisted_1 = { class: "v-step-0 v-step-1 v-step-2" }
-const Homevue_type_template_id_f0a67292_scoped_true_hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("br", null, null, -1)
-const Homevue_type_template_id_f0a67292_scoped_true_hoisted_3 = { class: "main" }
-const Homevue_type_template_id_f0a67292_scoped_true_hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("h1", null, "Convert images online without upload of your data", -1)
-const Homevue_type_template_id_f0a67292_scoped_true_hoisted_5 = { key: 0 }
-const _hoisted_6 = { class: "top_main" }
-const _hoisted_7 = { id: "process" }
-const _hoisted_8 = { class: "bottom_main" }
-const _hoisted_9 = { id: "line" }
-const _hoisted_10 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("hr", null, null, -1)
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-0e5fdee8")
+const Homevue_type_template_id_0e5fdee8_scoped_true_hoisted_1 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("br", null, null, -1)
+const Homevue_type_template_id_0e5fdee8_scoped_true_hoisted_2 = { class: "main" }
+const Homevue_type_template_id_0e5fdee8_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("h1", null, "Convert images online without upload of your data", -1)
+const Homevue_type_template_id_0e5fdee8_scoped_true_hoisted_4 = { key: 0 }
+const Homevue_type_template_id_0e5fdee8_scoped_true_hoisted_5 = { class: "top_main" }
+const _hoisted_6 = { id: "process" }
+const _hoisted_7 = { class: "bottom_main" }
+const _hoisted_8 = { id: "line" }
+const _hoisted_9 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("hr", null, null, -1)
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const Homevue_type_template_id_f0a67292_scoped_true_render = /*#__PURE__*/Homevue_type_template_id_f0a67292_scoped_true_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+function Homevue_type_template_id_0e5fdee8_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_Config = (0,runtime_dom_esm_bundler_js_.resolveComponent)("Config")
   const _component_Help = (0,runtime_dom_esm_bundler_js_.resolveComponent)("Help")
   const _component_Slide = (0,runtime_dom_esm_bundler_js_.resolveComponent)("Slide")
   const _component_ImageUpload = (0,runtime_dom_esm_bundler_js_.resolveComponent)("ImageUpload")
   const _component_ImagePreview = (0,runtime_dom_esm_bundler_js_.resolveComponent)("ImagePreview")
   const _component_PluginsManager = (0,runtime_dom_esm_bundler_js_.resolveComponent)("PluginsManager")
-  const _component_v_tour = (0,runtime_dom_esm_bundler_js_.resolveComponent)("v-tour")
 
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Homevue_type_template_id_f0a67292_scoped_true_hoisted_1, [
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", null, [
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_Slide, null, {
-      default: Homevue_type_template_id_f0a67292_scoped_true_withId(() => [
-        (0,runtime_dom_esm_bundler_js_.createVNode)("button", {
-          onClick: _cache[1] || (_cache[1] = $event => (_ctx.loadPlugin(_ctx.pluginUrl)))
+      default: (0,runtime_dom_esm_bundler_js_.withCtx)(() => [
+        (0,runtime_dom_esm_bundler_js_.createElementVNode)("button", {
+          onClick: _cache[0] || (_cache[0] = $event => (_ctx.loadPlugin(_ctx.pluginUrl)))
         }, "add plugin"),
-        (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("input", {
-          "onUpdate:modelValue": _cache[2] || (_cache[2] = $event => (_ctx.pluginUrl = $event)),
+        (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createElementVNode)("input", {
+          "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => (_ctx.pluginUrl = $event)),
           placeholder: "https://lenna.app/lenna-plugins/desaturate/remoteEntry.js"
         }, null, 512), [
           [runtime_dom_esm_bundler_js_.vModelText, _ctx.pluginUrl]
         ]),
-        Homevue_type_template_id_f0a67292_scoped_true_hoisted_2,
+        Homevue_type_template_id_0e5fdee8_scoped_true_hoisted_1,
         (_ctx.pluginsManager)
           ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)(_component_Config, {
               key: 0,
@@ -193,21 +188,21 @@ const Homevue_type_template_id_f0a67292_scoped_true_render = /*#__PURE__*/Homevu
       ]),
       _: 1
     }),
-    (0,runtime_dom_esm_bundler_js_.createVNode)("div", Homevue_type_template_id_f0a67292_scoped_true_hoisted_3, [
-      Homevue_type_template_id_f0a67292_scoped_true_hoisted_4,
+    (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", Homevue_type_template_id_0e5fdee8_scoped_true_hoisted_2, [
+      Homevue_type_template_id_0e5fdee8_scoped_true_hoisted_3,
       (_ctx.just)
-        ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("h2", Homevue_type_template_id_f0a67292_scoped_true_hoisted_5, (0,runtime_dom_esm_bundler_js_.toDisplayString)(_ctx.just), 1))
+        ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("h2", Homevue_type_template_id_0e5fdee8_scoped_true_hoisted_4, (0,runtime_dom_esm_bundler_js_.toDisplayString)(_ctx.just), 1))
         : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true),
-      (0,runtime_dom_esm_bundler_js_.createVNode)("div", _hoisted_6, [
+      (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", Homevue_type_template_id_0e5fdee8_scoped_true_hoisted_5, [
         (0,runtime_dom_esm_bundler_js_.createVNode)(_component_ImageUpload, {
           class: "v-step-3",
           ref: "imageUpload",
-          onChangeImage: _cache[3] || (_cache[3] = $event => (_ctx.changeImages($event)))
+          onChangeImage: _cache[2] || (_cache[2] = $event => (_ctx.changeImages($event)))
         }, null, 512),
-        (0,runtime_dom_esm_bundler_js_.createVNode)("div", _hoisted_7, [
-          (0,runtime_dom_esm_bundler_js_.createVNode)("button", {
+        (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", _hoisted_6, [
+          (0,runtime_dom_esm_bundler_js_.createElementVNode)("button", {
             class: "v-step-5",
-            onClick: _cache[4] || (_cache[4] = (...args) => (_ctx.processImages && _ctx.processImages(...args)))
+            onClick: _cache[3] || (_cache[3] = (...args) => (_ctx.processImages && _ctx.processImages(...args)))
           }, " process images ")
         ]),
         (0,runtime_dom_esm_bundler_js_.createVNode)(_component_ImagePreview, {
@@ -215,7 +210,7 @@ const Homevue_type_template_id_f0a67292_scoped_true_render = /*#__PURE__*/Homevu
           images: _ctx.resultImages
         }, null, 8, ["images"])
       ]),
-      (0,runtime_dom_esm_bundler_js_.createVNode)("div", _hoisted_8, [
+      (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", _hoisted_7, [
         (0,runtime_dom_esm_bundler_js_.createVNode)(_component_PluginsManager, {
           class: "v-step-4",
           ref: "pluginsManager",
@@ -226,21 +221,17 @@ const Homevue_type_template_id_f0a67292_scoped_true_render = /*#__PURE__*/Homevu
           pluginsjson: "https://lenna.app/lenna-plugins/plugins.json"
         }, null, 8, ["filter", "defaultConfig", "defaultPlugins"])
       ]),
-      (0,runtime_dom_esm_bundler_js_.createVNode)("div", _hoisted_9, [
-        _hoisted_10,
-        (0,runtime_dom_esm_bundler_js_.createVNode)("div", {
+      (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", _hoisted_8, [
+        _hoisted_9,
+        (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", {
           class: "plus radius",
-          onClick: _cache[5] || (_cache[5] = $event => (_ctx.onMorePlugins()))
+          onClick: _cache[4] || (_cache[4] = $event => (_ctx.onMorePlugins()))
         })
       ])
-    ]),
-    (0,runtime_dom_esm_bundler_js_.createVNode)(_component_v_tour, {
-      name: "Home",
-      steps: _ctx.steps
-    }, null, 8, ["steps"])
+    ])
   ]))
-})
-;// CONCATENATED MODULE: ./src/views/Home.vue?vue&type=template&id=f0a67292&scoped=true
+}
+;// CONCATENATED MODULE: ./src/views/Home.vue?vue&type=template&id=0e5fdee8&scoped=true
 
 // EXTERNAL MODULE: ./node_modules/nprogress/nprogress.js
 var nprogress = __webpack_require__(865);
@@ -248,26 +239,25 @@ var nprogress = __webpack_require__(865);
 var vue3_burger_menu_common = __webpack_require__(471);
 // EXTERNAL MODULE: ./node_modules/vue-toastification/dist/esm/index.js
 var esm = __webpack_require__(151);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/PluginsManager.vue?vue&type=template&id=8e8a11ba&scoped=true
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/PluginsManager.vue?vue&type=template&id=2a7ffed4&scoped=true
 
-const PluginsManagervue_type_template_id_8e8a11ba_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-8e8a11ba")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-8e8a11ba")
-const PluginsManagervue_type_template_id_8e8a11ba_scoped_true_hoisted_1 = { class: "plugins-manager" }
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-2a7ffed4")
+const PluginsManagervue_type_template_id_2a7ffed4_scoped_true_hoisted_1 = { class: "plugins-manager" }
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const PluginsManagervue_type_template_id_8e8a11ba_scoped_true_render = /*#__PURE__*/PluginsManagervue_type_template_id_8e8a11ba_scoped_true_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+function PluginsManagervue_type_template_id_2a7ffed4_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_Plugin = (0,runtime_dom_esm_bundler_js_.resolveComponent)("Plugin")
   const _component_draggable = (0,runtime_dom_esm_bundler_js_.resolveComponent)("draggable")
 
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", PluginsManagervue_type_template_id_8e8a11ba_scoped_true_hoisted_1, [
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", PluginsManagervue_type_template_id_2a7ffed4_scoped_true_hoisted_1, [
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_draggable, {
       class: "dragArea list-group plugins",
       list: _ctx.plugins
     }, {
-      default: PluginsManagervue_type_template_id_8e8a11ba_scoped_true_withId(() => [
-        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)(_ctx.plugins, (item) => {
-          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", {
+      default: (0,runtime_dom_esm_bundler_js_.withCtx)(() => [
+        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createElementBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)(_ctx.plugins, (item) => {
+          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", {
             class: "list-group-item",
             key: item.name
           }, [
@@ -275,7 +265,7 @@ const PluginsManagervue_type_template_id_8e8a11ba_scoped_true_render = /*#__PURE
               name: item.name,
               plugin: item.plugin,
               url: item.url,
-              defaultConfig: _ctx.defaultConfig,
+              defaultConfig: _ctx.configs,
               onChangeEnabled: $event => (_ctx.changeEnabled(item.name, $event)),
               onChangeConfig: $event => (_ctx.changeConfig(item.name, $event))
             }, null, 8, ["name", "plugin", "url", "defaultConfig", "onChangeEnabled", "onChangeConfig"])
@@ -285,111 +275,97 @@ const PluginsManagervue_type_template_id_8e8a11ba_scoped_true_render = /*#__PURE
       _: 1
     }, 8, ["list"])
   ]))
-})
-;// CONCATENATED MODULE: ./src/components/PluginsManager.vue?vue&type=template&id=8e8a11ba&scoped=true
+}
+;// CONCATENATED MODULE: ./src/components/PluginsManager.vue?vue&type=template&id=2a7ffed4&scoped=true
 
 // EXTERNAL MODULE: ./node_modules/vue-draggable-next/dist/vue-draggable-next.esm-bundler.js
 var vue_draggable_next_esm_bundler = __webpack_require__(496);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Plugin.vue?vue&type=template&id=5f30d230&scoped=true
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Plugin.vue?vue&type=template&id=0cba2f38&scoped=true
 
-const Pluginvue_type_template_id_5f30d230_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-5f30d230")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-5f30d230")
-const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_1 = {
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-0cba2f38")
+const Pluginvue_type_template_id_0cba2f38_scoped_true_hoisted_1 = {
   key: 0,
   class: "plugin"
 }
-const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_2 = { for: "checkbox" }
-const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_3 = { class: "checkbox-container" }
-const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_4 = { class: "checkbox" }
-const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_5 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("span", null, null, -1)
-const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_6 = { key: 0 }
-const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_7 = { key: 0 }
-const Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_8 = { key: 1 }
+const Pluginvue_type_template_id_0cba2f38_scoped_true_hoisted_2 = { key: 1 }
+const Pluginvue_type_template_id_0cba2f38_scoped_true_hoisted_3 = { key: 0 }
+const Pluginvue_type_template_id_0cba2f38_scoped_true_hoisted_4 = { key: 1 }
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const Pluginvue_type_template_id_5f30d230_scoped_true_render = /*#__PURE__*/Pluginvue_type_template_id_5f30d230_scoped_true_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+function Pluginvue_type_template_id_0cba2f38_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
+  const _component_Icon = (0,runtime_dom_esm_bundler_js_.resolveComponent)("Icon")
+  const _component_Checkbox = (0,runtime_dom_esm_bundler_js_.resolveComponent)("Checkbox")
   const _component_PluginConfig = (0,runtime_dom_esm_bundler_js_.resolveComponent)("PluginConfig")
 
-  return ($props.plugin)
-    ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_1, [
-        (0,runtime_dom_esm_bundler_js_.createVNode)("div", null, [
-          ($data.icon && !$data.enabled)
-            ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("img", {
-                key: 0,
-                id: "icon",
-                src: $data.icon
-              }, null, 8, ["src"]))
-            : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true)
+  return (_ctx.plugin)
+    ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Pluginvue_type_template_id_0cba2f38_scoped_true_hoisted_1, [
+        (_ctx.icon && !_ctx.enabled)
+          ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)(_component_Icon, {
+              key: 0,
+              src: _ctx.icon
+            }, null, 8, ["src"]))
+          : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true),
+        (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", null, [
+          (0,runtime_dom_esm_bundler_js_.createElementVNode)("h2", null, (0,runtime_dom_esm_bundler_js_.toDisplayString)(_ctx.plugin.name()), 1),
+          (0,runtime_dom_esm_bundler_js_.createVNode)(_component_Checkbox, {
+            checked: _ctx.enabled,
+            "onUpdate:checked": _cache[0] || (_cache[0] = $event => (_ctx.updateEnabled($event)))
+          }, null, 8, ["checked"])
         ]),
-        (0,runtime_dom_esm_bundler_js_.createVNode)("div", null, [
-          (0,runtime_dom_esm_bundler_js_.createVNode)("h2", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_2, (0,runtime_dom_esm_bundler_js_.toDisplayString)($props.plugin.name()), 1),
-          (0,runtime_dom_esm_bundler_js_.createVNode)("div", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_3, [
-            (0,runtime_dom_esm_bundler_js_.createVNode)("label", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_4, [
-              (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("input", {
-                type: "checkbox",
-                id: "checkbox",
-                "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => ($data.enabled = $event)),
-                onChange: _cache[2] || (_cache[2] = $event => ($options.updateEnabled($data.enabled)))
-              }, null, 544), [
-                [runtime_dom_esm_bundler_js_.vModelCheckbox, $data.enabled]
-              ]),
-              Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_5
-            ])
-          ])
-        ]),
-        ($data.enabled)
-          ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_6, [
-              (0,runtime_dom_esm_bundler_js_.createVNode)("span", null, (0,runtime_dom_esm_bundler_js_.toDisplayString)($props.plugin.description()), 1),
-              ($data.ui && $data.config)
-                ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_7, [
-                    ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)((0,runtime_dom_esm_bundler_js_.resolveDynamicComponent)($data.ui), {
-                      key: $data.pluginKey,
-                      defaultConfig: $data.config,
-                      onChangeConfig: _cache[3] || (_cache[3] = $event => ($options.updateConfig($event)))
+        (_ctx.enabled)
+          ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Pluginvue_type_template_id_0cba2f38_scoped_true_hoisted_2, [
+              (0,runtime_dom_esm_bundler_js_.createElementVNode)("span", null, (0,runtime_dom_esm_bundler_js_.toDisplayString)(_ctx.plugin.description()), 1),
+              (_ctx.ui && _ctx.config)
+                ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Pluginvue_type_template_id_0cba2f38_scoped_true_hoisted_3, [
+                    ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)((0,runtime_dom_esm_bundler_js_.resolveDynamicComponent)(_ctx.ui), {
+                      key: _ctx.pluginKey,
+                      defaultConfig: _ctx.config,
+                      onChangeConfig: _cache[1] || (_cache[1] = $event => (_ctx.updateConfig($event)))
                     }, null, 8, ["defaultConfig"]))
                   ]))
-                : ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Pluginvue_type_template_id_5f30d230_scoped_true_hoisted_8, [
+                : ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Pluginvue_type_template_id_0cba2f38_scoped_true_hoisted_4, [
                     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_PluginConfig, {
-                      key: $data.pluginKey,
-                      defaultConfig: $data.config,
-                      onChangeConfig: _cache[4] || (_cache[4] = $event => ($options.updateConfig($event)))
+                      key: _ctx.pluginKey,
+                      defaultConfig: _ctx.config,
+                      onChangeConfig: _cache[2] || (_cache[2] = $event => (_ctx.updateConfig($event)))
                     }, null, 8, ["defaultConfig"])
                   ]))
             ]))
           : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true)
       ]))
     : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true)
-})
-;// CONCATENATED MODULE: ./src/components/Plugin.vue?vue&type=template&id=5f30d230&scoped=true
+}
+;// CONCATENATED MODULE: ./src/components/Plugin.vue?vue&type=template&id=0cba2f38&scoped=true
 
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/PluginConfig.vue?vue&type=template&id=1a66356f&scoped=true
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/PluginConfig.vue?vue&type=template&id=8f565294&scoped=true
 
-const PluginConfigvue_type_template_id_1a66356f_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-1a66356f")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-1a66356f")
-const PluginConfigvue_type_template_id_1a66356f_scoped_true_hoisted_1 = {
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-8f565294")
+const PluginConfigvue_type_template_id_8f565294_scoped_true_hoisted_1 = {
   key: 0,
   class: "plugin-config"
 }
-const PluginConfigvue_type_template_id_1a66356f_scoped_true_hoisted_2 = { class: "parameter" }
+const PluginConfigvue_type_template_id_8f565294_scoped_true_hoisted_2 = { class: "parameter" }
+const PluginConfigvue_type_template_id_8f565294_scoped_true_hoisted_3 = ["placeholder", "onUpdate:modelValue", "id"]
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const PluginConfigvue_type_template_id_1a66356f_scoped_true_render = /*#__PURE__*/PluginConfigvue_type_template_id_1a66356f_scoped_true_withId((_ctx, _cache, $props, $setup, $data, $options) => {
-  return ($data.config)
-    ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", PluginConfigvue_type_template_id_1a66356f_scoped_true_hoisted_1, [
-        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)($data.config, (c) => {
-          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", {
+function PluginConfigvue_type_template_id_8f565294_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (_ctx.config)
+    ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", PluginConfigvue_type_template_id_8f565294_scoped_true_hoisted_1, [
+        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createElementBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)(_ctx.config, (c) => {
+          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", {
             key: c.key
           }, [
-            (0,runtime_dom_esm_bundler_js_.createVNode)("div", PluginConfigvue_type_template_id_1a66356f_scoped_true_hoisted_2, [
-              (0,runtime_dom_esm_bundler_js_.createVNode)("label", null, (0,runtime_dom_esm_bundler_js_.toDisplayString)(c.key) + ": ", 1),
-              (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("input", {
+            (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", PluginConfigvue_type_template_id_8f565294_scoped_true_hoisted_2, [
+              (0,runtime_dom_esm_bundler_js_.createElementVNode)("label", null, (0,runtime_dom_esm_bundler_js_.toDisplayString)(c.key) + ": ", 1),
+              (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createElementVNode)("input", {
                 type: "number",
                 placeholder: c.key,
                 "onUpdate:modelValue": $event => (c.value = $event),
-                onChange: _cache[1] || (_cache[1] = $event => ($options.updateConfig()))
-              }, null, 40, ["placeholder", "onUpdate:modelValue"]), [
+                onChange: _cache[0] || (_cache[0] = $event => (_ctx.updateConfig())),
+                id: c.key
+              }, null, 40, PluginConfigvue_type_template_id_8f565294_scoped_true_hoisted_3), [
                 [
                   runtime_dom_esm_bundler_js_.vModelText,
                   c.value,
@@ -402,38 +378,38 @@ const PluginConfigvue_type_template_id_1a66356f_scoped_true_render = /*#__PURE__
         }), 128))
       ]))
     : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true)
-})
-;// CONCATENATED MODULE: ./src/components/PluginConfig.vue?vue&type=template&id=1a66356f&scoped=true
+}
+;// CONCATENATED MODULE: ./src/components/PluginConfig.vue?vue&type=template&id=8f565294&scoped=true
 
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/PluginConfig.vue?vue&type=script&lang=ts
+;// CONCATENATED MODULE: ./node_modules/ts-loader/index.js??clonedRuleSet-1!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/PluginConfig.vue?vue&type=script&lang=ts
 
-/* harmony default export */ const PluginConfigvue_type_script_lang_ts = ({
-  name: "PluginConfig",
-  props: {
-    defaultConfig: Object,
-  },
-  data() {
-    return {
-      config: [],
-    };
-  },
-  methods: {
-    async updateConfig() {
-      let config = {};
-      for (let c of this.config) {
-        config[c.key] = c.value;
-      }
-      this.$emit("changeConfig", config);
+/* harmony default export */ const PluginConfigvue_type_script_lang_ts = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
+    name: "PluginConfig",
+    props: {
+        defaultConfig: Object,
     },
-  },
-  created() {
-    for (let key in this.defaultConfig) {
-      let config = { key: key, value: this.defaultConfig[key] };
-      this.config.push(config);
-    }
-    this.updateConfig();
-  },
-});
+    data() {
+        return {
+            config: [],
+        };
+    },
+    methods: {
+        async updateConfig() {
+            let config = new Map();
+            for (let c of this.config) {
+                config.set(c.key, c.value);
+            }
+            this.$emit("changeConfig", config);
+        },
+    },
+    created() {
+        for (let key in this.defaultConfig) {
+            let config = { key: key, value: this.defaultConfig[key] };
+            this.config.push(config);
+        }
+        this.updateConfig();
+    },
+}));
 
 ;// CONCATENATED MODULE: ./src/components/PluginConfig.vue?vue&type=script&lang=ts
  
@@ -443,148 +419,243 @@ const PluginConfigvue_type_template_id_1a66356f_scoped_true_render = /*#__PURE__
 
 
 ;
-PluginConfigvue_type_script_lang_ts.render = PluginConfigvue_type_template_id_1a66356f_scoped_true_render
-PluginConfigvue_type_script_lang_ts.__scopeId = "data-v-1a66356f"
+PluginConfigvue_type_script_lang_ts.render = PluginConfigvue_type_template_id_8f565294_scoped_true_render
+PluginConfigvue_type_script_lang_ts.__scopeId = "data-v-8f565294"
 
 /* harmony default export */ const PluginConfig = (PluginConfigvue_type_script_lang_ts);
-;// CONCATENATED MODULE: ./src/config.js
-const saveConfig = (plugin) => {
-  let config = {
-    enabled: plugin.enabled,
-    config: plugin.config,
-  };
-  localStorage.setItem(plugin.name, JSON.stringify(config));
-};
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Checkbox.vue?vue&type=template&id=3a505396&scoped=true
 
-const loadConfig = (plugin) => {
-  let config = localStorage.getItem(plugin.name);
-  if (config) {
-    config = JSON.parse(config);
-    plugin.enabled = config.enabled;
-    plugin.config = Object.assign(plugin.config, config.config);
-  }
-  return plugin;
-};
 
-const loadConfigFromParams = (plugin, params) => {
-  params.forEach((config) => {
-    if (config.name === plugin.name) {
-      console.log(config);
-      plugin.enabled = config.enabled;
-      plugin.config = Object.assign(plugin.config, config.config);
-    }
-  });
-  return plugin;
-};
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-3a505396")
+const Checkboxvue_type_template_id_3a505396_scoped_true_hoisted_1 = { class: "checkbox-container" }
+const Checkboxvue_type_template_id_3a505396_scoped_true_hoisted_2 = { class: "checkbox" }
+const Checkboxvue_type_template_id_3a505396_scoped_true_hoisted_3 = ["checked"]
+const Checkboxvue_type_template_id_3a505396_scoped_true_hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("span", null, null, -1)
+;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const listPlugins = () => {
-  let plugins = localStorage.getItem("plugins") || "[]";
-  return JSON.parse(plugins);
+function Checkboxvue_type_template_id_3a505396_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Checkboxvue_type_template_id_3a505396_scoped_true_hoisted_1, [
+    (0,runtime_dom_esm_bundler_js_.createElementVNode)("label", Checkboxvue_type_template_id_3a505396_scoped_true_hoisted_2, [
+      (0,runtime_dom_esm_bundler_js_.createElementVNode)("input", {
+        onInput: _cache[0] || (_cache[0] = (event) => _ctx.$emit('update:checked', event.target.checked)),
+        type: "checkbox",
+        checked: _ctx.checked,
+        id: "checkbox"
+      }, null, 40, Checkboxvue_type_template_id_3a505396_scoped_true_hoisted_3),
+      Checkboxvue_type_template_id_3a505396_scoped_true_hoisted_4
+    ])
+  ]))
 }
+;// CONCATENATED MODULE: ./src/components/Checkbox.vue?vue&type=template&id=3a505396&scoped=true
 
+;// CONCATENATED MODULE: ./node_modules/ts-loader/index.js??clonedRuleSet-1!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Checkbox.vue?vue&type=script&lang=ts
 
-
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Plugin.vue?vue&type=script&lang=js
-
-
-
-
-
-const createUI = (name, component) => {
-  return component;
-};
-
-/* harmony default export */ const Pluginvue_type_script_lang_js = ({
-  name: "Plugin",
-  props: {
-    name: String,
-    plugin: Object,
-    url: String,
-    defaultConfig: Object,
-  },
-  components: {
-    PluginConfig: PluginConfig,
-  },
-  data() {
-    return {
-      ui: (0,runtime_dom_esm_bundler_js_.shallowRef)(null),
-      icon: (0,runtime_dom_esm_bundler_js_.shallowRef)(null),
-      processor: null,
-      enabled: false,
-      keyCounter: 0,
-      pluginKey: "",
-      config: null,
-    };
-  },
-  methods: {
-    async loadDefaultConfig() {
-      this.plugin.defaultConfig().then((defaultConfig) => {
-        if (this.defaultConfig && this.defaultConfig.length > 0) {
-          const { enabled, config } = loadConfigFromParams(
-            {
-              name: this.name,
-              config: defaultConfig,
+/* harmony default export */ const Checkboxvue_type_script_lang_ts = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
+    name: "Checkbox",
+    props: {
+        checked: {
+            type: Boolean,
+        },
+    },
+    emits: ["update:checked"],
+    computed: {
+        value: {
+            get() {
+                return this.checked;
             },
-            this.defaultConfig
-          );
-          this.config = config;
-          this.enabled = enabled;
-        } else {
-          const { enabled, config } = loadConfig({
-            name: this.name,
-            config: defaultConfig,
-          });
-          this.config = config;
-          this.enabled = enabled;
+            set(value) {
+                this.$emit('update:checked', value);
+            }
         }
-      });
+    }
+}));
+
+;// CONCATENATED MODULE: ./src/components/Checkbox.vue?vue&type=script&lang=ts
+ 
+;// CONCATENATED MODULE: ./src/components/Checkbox.vue
+
+
+
+
+;
+Checkboxvue_type_script_lang_ts.render = Checkboxvue_type_template_id_3a505396_scoped_true_render
+Checkboxvue_type_script_lang_ts.__scopeId = "data-v-3a505396"
+
+/* harmony default export */ const Checkbox = (Checkboxvue_type_script_lang_ts);
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Icon.vue?vue&type=template&id=223afea4&scoped=true
+
+
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-223afea4")
+const Iconvue_type_template_id_223afea4_scoped_true_hoisted_1 = ["src"]
+;(0,runtime_dom_esm_bundler_js_.popScopeId)()
+
+function Iconvue_type_template_id_223afea4_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", null, [
+    (0,runtime_dom_esm_bundler_js_.createElementVNode)("img", {
+      id: "icon",
+      src: $props.src
+    }, null, 8, Iconvue_type_template_id_223afea4_scoped_true_hoisted_1)
+  ]))
+}
+;// CONCATENATED MODULE: ./src/components/Icon.vue?vue&type=template&id=223afea4&scoped=true
+
+;// CONCATENATED MODULE: ./node_modules/ts-loader/index.js??clonedRuleSet-1!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Icon.vue?vue&type=script&lang=ts
+/* harmony default export */ const Iconvue_type_script_lang_ts = ({
+    props: {
+        src: {
+            type: [Object, String],
+        },
     },
-    async loadUI() {
-      if (this.plugin.ui && this.url) {
-        System.import(this.url)
-          .then((module) => {
-            module.get("./Widget").then((widget) => {
-              this.ui = createUI(this.name, widget().default);
-            });
-          })
-          .catch((e) => console.log(e));
-      }
-      if (this.plugin.icon) {
-        this.icon = this.plugin.icon();
-      }
-    },
-    async updateConfig(config) {
-      saveConfig({
-        name: this.name,
-        enabled: this.enabled,
-        config: config,
-      });
-      this.$emit("changeConfig", config);
-    },
-    async updateEnabled(enabled) {
-      saveConfig({
-        name: this.name,
-        enabled: this.enabled,
-        config: this.config,
-      });
-      this.$emit("changeEnabled", enabled);
-    },
-  },
-  created() {
-    this.loadUI();
-    this.loadDefaultConfig();
-  },
-  watch: {
-    defaultConfig: {
-      handler: function (val) {
-        this.keyCounter += 1;
-        this.pluginKey = this.name + this.keyCounter;
-      },
-    },
-  },
 });
 
-;// CONCATENATED MODULE: ./src/components/Plugin.vue?vue&type=script&lang=js
+;// CONCATENATED MODULE: ./src/components/Icon.vue?vue&type=script&lang=ts
+ 
+;// CONCATENATED MODULE: ./src/components/Icon.vue
+
+
+
+
+;
+Iconvue_type_script_lang_ts.render = Iconvue_type_template_id_223afea4_scoped_true_render
+Iconvue_type_script_lang_ts.__scopeId = "data-v-223afea4"
+
+/* harmony default export */ const Icon = (Iconvue_type_script_lang_ts);
+;// CONCATENATED MODULE: ./src/controllers/storage.ts
+const saveConfig = (plugin) => {
+    const config = {
+        name: plugin.name,
+        enabled: plugin.enabled,
+        config: plugin.config,
+    };
+    localStorage.setItem(plugin.name, JSON.stringify(config));
+};
+const loadConfig = (plugin) => {
+    const savedConfig = localStorage.getItem(plugin.name);
+    if (savedConfig) {
+        const config = JSON.parse(savedConfig);
+        plugin.enabled = config.enabled;
+        plugin.config = Object.assign(plugin.config, config.config);
+    }
+    return plugin;
+};
+const loadConfigFromParams = (plugin, params) => {
+    params.forEach((config) => {
+        if (config.name === plugin.name) {
+            console.log(config);
+            plugin.enabled = config.enabled;
+            plugin.config = Object.assign(plugin.config, config.config);
+        }
+    });
+    return plugin;
+};
+const listPlugins = () => {
+    const plugins = localStorage.getItem("plugins") || "[]";
+    return JSON.parse(plugins);
+};
+
+
+;// CONCATENATED MODULE: ./node_modules/ts-loader/index.js??clonedRuleSet-1!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Plugin.vue?vue&type=script&lang=ts
+
+
+
+
+
+/* harmony default export */ const Pluginvue_type_script_lang_ts = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
+    name: "Plugin",
+    props: {
+        name: String,
+        plugin: Object,
+        url: String,
+        defaultConfig: Object,
+    },
+    components: {
+        Checkbox: Checkbox,
+        Icon: Icon,
+        PluginConfig: PluginConfig,
+    },
+    data() {
+        return {
+            ui: (0,runtime_dom_esm_bundler_js_.shallowRef)(null),
+            icon: (0,runtime_dom_esm_bundler_js_.shallowRef)(null),
+            processor: null,
+            enabled: false,
+            keyCounter: 0,
+            pluginKey: "",
+            config: {},
+        };
+    },
+    methods: {
+        async loadDefaultConfig() {
+            this.plugin?.defaultConfig().then((defaultConfig) => {
+                if (this.defaultConfig && this.defaultConfig.length > 0) {
+                    const { enabled, config } = loadConfigFromParams({
+                        name: this.name || "",
+                        enabled: true,
+                        config: defaultConfig,
+                    }, this.defaultConfig);
+                    this.config = config;
+                    this.enabled = enabled || false;
+                }
+                else {
+                    const { enabled, config } = loadConfig({
+                        name: this.name || "",
+                        enabled: false,
+                        config: defaultConfig,
+                    });
+                    this.config = config;
+                    this.enabled = enabled || false;
+                }
+            });
+        },
+        async loadUI() {
+            if (this.plugin?.ui && this.url) {
+                // eslint-disable-next-line no-undef
+                System.import(this.url)
+                    .then((module) => {
+                    module.get("./Widget").then((widget) => {
+                        this.ui = widget().default;
+                    });
+                })
+                    .catch((e) => console.log(e));
+            }
+            if (this.plugin?.icon) {
+                this.icon = this.plugin.icon();
+            }
+        },
+        async updateConfig(config) {
+            saveConfig({
+                name: this.name || "",
+                enabled: this.enabled,
+                config: config,
+            });
+            this.$emit("changeConfig", config);
+        },
+        async updateEnabled(enabled) {
+            this.enabled = enabled;
+            saveConfig({
+                name: this.name || "",
+                enabled: this.enabled,
+                config: this.config,
+            });
+            this.$emit("changeEnabled", enabled);
+        },
+    },
+    created() {
+        console.log(this.name);
+        this.loadUI();
+        this.loadDefaultConfig();
+    },
+    watch: {
+        defaultConfig: {
+            handler: function () {
+                this.keyCounter += 1;
+                this.pluginKey = (this.name || "") + this.keyCounter;
+            },
+        },
+    },
+}));
+
+;// CONCATENATED MODULE: ./src/components/Plugin.vue?vue&type=script&lang=ts
  
 ;// CONCATENATED MODULE: ./src/components/Plugin.vue
 
@@ -592,150 +663,153 @@ const createUI = (name, component) => {
 
 
 ;
-Pluginvue_type_script_lang_js.render = Pluginvue_type_template_id_5f30d230_scoped_true_render
-Pluginvue_type_script_lang_js.__scopeId = "data-v-5f30d230"
+Pluginvue_type_script_lang_ts.render = Pluginvue_type_template_id_0cba2f38_scoped_true_render
+Pluginvue_type_script_lang_ts.__scopeId = "data-v-0cba2f38"
 
-/* harmony default export */ const Plugin = (Pluginvue_type_script_lang_js);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/PluginsManager.vue?vue&type=script&lang=js
-
-
+/* harmony default export */ const Plugin = (Pluginvue_type_script_lang_ts);
+;// CONCATENATED MODULE: ./node_modules/ts-loader/index.js??clonedRuleSet-1!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/PluginsManager.vue?vue&type=script&lang=ts
 
 
 
 
 
-/* harmony default export */ const PluginsManagervue_type_script_lang_js = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
-  name: "PluginsManager",
-  props: {
-    filter: String,
-    pluginsmap: String,
-    pluginsjson: String,
-    defaultConfig: Object,
-    defaultPlugins: Array,
-  },
-  components: {
-    Plugin: Plugin,
-    draggable: vue_draggable_next_esm_bundler/* VueDraggableNext */.J,
-  },
-  data() {
-    return {
-      plugins: [],
-    };
-  },
-  beforeMount() {
-    let tasks = [this.getPluginsmap(), this.getPluginsjson()];
-    if (this.defaultPlugins) {
-      this.defaultPlugins.forEach((plugin) => {
-        tasks.push(this.importPlugin(plugin, plugin));
-      });
-    }
-    listPlugins().forEach((plugin) => {
-      tasks.push(this.importPlugin(plugin, plugin));
-    });
-    Promise.all(tasks)
-      .then(() => {
-        if (this.plugins.length < 1) {
-          const toast = (0,esm/* useToast */.pm)();
-          toast.warning(
-            `No plugin enabled. Find more plugins in the marketplace.`
-          );
+/* harmony default export */ const PluginsManagervue_type_script_lang_ts = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
+    name: "PluginsManager",
+    props: {
+        filter: String,
+        pluginsmap: String,
+        pluginsjson: String,
+        defaultConfig: Object,
+        defaultPlugins: Array,
+    },
+    components: {
+        Plugin: Plugin,
+        draggable: vue_draggable_next_esm_bundler/* VueDraggableNext */.J,
+    },
+    data() {
+        return {
+            plugins: [],
+            configs: {},
+        };
+    },
+    beforeMount() {
+        let tasks = [this.getPluginsmap(), this.getPluginsjson()];
+        this.configs = this.defaultConfig || {};
+        if (this.defaultPlugins) {
+            this.defaultPlugins.forEach((plugin) => {
+                tasks.push(this.importPlugin(plugin, plugin));
+            });
         }
-      })
-      .catch(console.log);
-
-    //this.importPlugin("local", "http://localhost:3002/remoteEntry.js");
-  },
-  methods: {
-    changeEnabled(name, enabled) {
-      let plugin = this.plugins.find((o) => o.name === name);
-      plugin.enabled = enabled;
-    },
-    changeConfig(name, config) {
-      let plugin = this.plugins.find((o) => o.name === name);
-      plugin.config = config;
-    },
-    raw(comp) {
-      return comp;
-    },
-    async importPlugin(key, url) {
-      return System.import(url).then(async (module) => {
-        await module.init(__webpack_require__.S["default"]);
-        return module.get("default").then((plugin) => {
-          let pluginConfig = {
-            name: key,
-            url: url,
-            plugin: plugin(),
-            enabled: false,
-            config: {},
-          };
-          pluginConfig = loadConfig(pluginConfig);
-          if (this.filter) {
-            if (pluginConfig.name.includes(this.filter)) {
-              pluginConfig.enabled = true;
-              this.defaultConfig.push({
-                name: pluginConfig.name,
-                enabled: true,
-                config: pluginConfig.config,
-              });
-              this.plugins.push(pluginConfig);
-            }
-          } else {
-            this.plugins.push(pluginConfig);
-          }
+        listPlugins().forEach((plugin) => {
+            tasks.push(this.importPlugin(plugin, plugin));
         });
-      });
+        Promise.all(tasks)
+            .then(() => {
+            if (this.plugins.length < 1) {
+                const toast = (0,esm/* useToast */.pm)();
+                toast.warning(`No plugin enabled. Find more plugins in the marketplace.`);
+            }
+        })
+            .catch(console.log);
+        //this.importPlugin("local", "http://localhost:3002/remoteEntry.js");
     },
-    async getPluginsmap() {
-      let tasks = [];
-      if (this.pluginsmap) {
-        const res = await fetch(this.pluginsmap);
-        const data = await res.json();
-        for (const key in data.imports) {
-          tasks.push(
-            System.import(key).then((plugin) => {
-              let pluginConfig = {
-                name: key,
-                url: data.imports[key],
-                plugin: plugin,
-                enabled: false,
-                config: {},
-              };
-              pluginConfig = loadConfig(pluginConfig);
-              if (this.filter) {
-                if (pluginConfig.name.includes(this.filter)) {
-                  pluginConfig.enabled = true;
-                  this.defaultConfig.push({
-                    name: pluginConfig.name,
-                    enabled: true,
-                    config: pluginConfig.config,
-                  });
-                  this.plugins.push(pluginConfig);
+    methods: {
+        changeEnabled(name, enabled) {
+            let plugin = this.plugins.find((o) => o.name === name);
+            if (plugin) {
+                plugin.enabled = enabled;
+            }
+        },
+        changeConfig(name, config) {
+            let plugin = this.plugins.find((o) => o.name === name);
+            if (plugin) {
+                plugin.config = config;
+            }
+        },
+        raw(comp) {
+            return comp;
+        },
+        async importPlugin(key, url) {
+            // eslint-disable-next-line no-undef
+            return System.import(url).then(async (module) => {
+                // eslint-disable-next-line no-undef
+                await module.init(__webpack_require__.S["default"]);
+                return module.get("default").then((plugin) => {
+                    let pluginConfig = loadConfig({
+                        name: key,
+                        url: url,
+                        plugin: plugin(),
+                        enabled: false,
+                        config: {},
+                    });
+                    if (this.filter) {
+                        if (pluginConfig.name.includes(this.filter)) {
+                            pluginConfig.enabled = true;
+                            this.configs.push({
+                                name: pluginConfig.name,
+                                enabled: true,
+                                config: pluginConfig.config,
+                            });
+                            this.plugins.push(pluginConfig);
+                        }
+                    }
+                    else {
+                        this.plugins.push(pluginConfig);
+                    }
+                });
+            });
+        },
+        async getPluginsmap() {
+            let tasks = [];
+            if (this.pluginsmap) {
+                const res = await fetch(this.pluginsmap);
+                const data = await res.json();
+                for (const key in data.imports) {
+                    tasks.push(
+                    // eslint-disable-next-line no-undef
+                    System.import(key).then((plugin) => {
+                        let pluginConfig = loadConfig({
+                            name: key,
+                            url: data.imports[key],
+                            plugin: plugin,
+                            enabled: false,
+                            config: {},
+                        });
+                        if (this.filter) {
+                            if (pluginConfig.name.includes(this.filter)) {
+                                pluginConfig.enabled = true;
+                                this.configs.push({
+                                    name: pluginConfig.name,
+                                    enabled: true,
+                                    config: pluginConfig.config,
+                                });
+                                this.plugins.push(pluginConfig);
+                            }
+                        }
+                        else {
+                            this.plugins.push(pluginConfig);
+                        }
+                    }));
                 }
-              } else {
-                this.plugins.push(pluginConfig);
-              }
-            })
-          );
-        }
-      }
-      return Promise.all(tasks);
+            }
+            return Promise.all(tasks);
+        },
+        async getPluginsjson() {
+            let tasks = [];
+            if (this.pluginsjson) {
+                const res = await fetch(this.pluginsjson);
+                const data = await res.json();
+                for (const key in data.plugins) {
+                    let url = data.plugins[key];
+                    tasks.push(this.importPlugin(key, url));
+                }
+            }
+            return Promise.all(tasks);
+        },
     },
-    async getPluginsjson() {
-      let tasks = []
-      if (this.pluginsjson) {
-        const res = await fetch(this.pluginsjson);
-        const data = await res.json();
-        for (const key in data.plugins) {
-          let url = data.plugins[key];
-          tasks.push(this.importPlugin(key, url));
-        }
-      }
-      return Promise.all(tasks);
-    },
-  },
 }));
 
-;// CONCATENATED MODULE: ./src/components/PluginsManager.vue?vue&type=script&lang=js
+;// CONCATENATED MODULE: ./src/components/PluginsManager.vue?vue&type=script&lang=ts
  
 ;// CONCATENATED MODULE: ./src/components/PluginsManager.vue
 
@@ -743,32 +817,33 @@ Pluginvue_type_script_lang_js.__scopeId = "data-v-5f30d230"
 
 
 ;
-PluginsManagervue_type_script_lang_js.render = PluginsManagervue_type_template_id_8e8a11ba_scoped_true_render
-PluginsManagervue_type_script_lang_js.__scopeId = "data-v-8e8a11ba"
+PluginsManagervue_type_script_lang_ts.render = PluginsManagervue_type_template_id_2a7ffed4_scoped_true_render
+PluginsManagervue_type_script_lang_ts.__scopeId = "data-v-2a7ffed4"
 
-/* harmony default export */ const PluginsManager = (PluginsManagervue_type_script_lang_js);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/ImageUpload.vue?vue&type=template&id=b78313d4&scoped=true
+/* harmony default export */ const PluginsManager = (PluginsManagervue_type_script_lang_ts);
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/ImageUpload.vue?vue&type=template&id=3b69b15e&scoped=true
 
-const ImageUploadvue_type_template_id_b78313d4_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-b78313d4")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-b78313d4")
-const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_1 = { class: "image-upload" }
-const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)(" drop")
-const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("br", null, null, -1)
-const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)("or")
-const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_5 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("br", null, null, -1)
-const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_6 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)("select files")
-const ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_7 = {
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-3b69b15e")
+const ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_1 = { class: "image-upload" }
+const ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)(" drop")
+const ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("br", null, null, -1)
+const ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)("or")
+const ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_5 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("br", null, null, -1)
+const ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_6 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)("select files")
+const ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_7 = {
   key: 0,
   class: "image-container"
 }
+const ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_8 = ["onClick"]
+const ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_9 = ["src"]
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const ImageUploadvue_type_template_id_b78313d4_scoped_true_render = /*#__PURE__*/ImageUploadvue_type_template_id_b78313d4_scoped_true_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+function ImageUploadvue_type_template_id_3b69b15e_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_FileUpload = (0,runtime_dom_esm_bundler_js_.resolveComponent)("FileUpload")
   const _component_vue_easy_lightbox = (0,runtime_dom_esm_bundler_js_.resolveComponent)("vue-easy-lightbox")
 
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_1, [
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_1, [
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_FileUpload, {
       multiple: true,
       drop: true,
@@ -776,34 +851,34 @@ const ImageUploadvue_type_template_id_b78313d4_scoped_true_render = /*#__PURE__*
       extensions: "gif,jpg,jpeg,png,webp",
       accept: "image/png,image/gif,image/jpeg,image/webp",
       modelValue: _ctx.files,
-      "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => (_ctx.files = $event)),
+      "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => (_ctx.files = $event)),
       onInputFilter: _ctx.inputFilter,
       onInputFile: _ctx.inputFile,
       ref: "upload",
       class: "file-upload"
     }, {
-      default: ImageUploadvue_type_template_id_b78313d4_scoped_true_withId(() => [
-        ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_2,
-        ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_3,
-        ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_4,
-        ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_5,
-        ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_6
+      default: (0,runtime_dom_esm_bundler_js_.withCtx)(() => [
+        ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_2,
+        ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_3,
+        ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_4,
+        ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_5,
+        ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_6
       ]),
       _: 1
     }, 8, ["modelValue", "onInputFilter", "onInputFile"]),
     (_ctx.images.length > 0)
-      ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", ImageUploadvue_type_template_id_b78313d4_scoped_true_hoisted_7, [
-          ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)(_ctx.images, (src, index) => {
-            return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", {
+      ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_7, [
+          ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createElementBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)(_ctx.images, (src, index) => {
+            return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", {
               key: index,
               class: "pic",
               onClick: () => _ctx.showImg(index)
             }, [
-              (0,runtime_dom_esm_bundler_js_.createVNode)("img", {
+              (0,runtime_dom_esm_bundler_js_.createElementVNode)("img", {
                 height: "140",
                 src: src
-              }, null, 8, ["src"])
-            ], 8, ["onClick"]))
+              }, null, 8, ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_9)
+            ], 8, ImageUploadvue_type_template_id_3b69b15e_scoped_true_hoisted_8))
           }), 128)),
           (0,runtime_dom_esm_bundler_js_.createVNode)(_component_vue_easy_lightbox, {
             escDisabled: "",
@@ -816,61 +891,60 @@ const ImageUploadvue_type_template_id_b78313d4_scoped_true_render = /*#__PURE__*
         ]))
       : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true)
   ]))
-})
-;// CONCATENATED MODULE: ./src/components/ImageUpload.vue?vue&type=template&id=b78313d4&scoped=true
+}
+;// CONCATENATED MODULE: ./src/components/ImageUpload.vue?vue&type=template&id=3b69b15e&scoped=true
 
 // EXTERNAL MODULE: ./node_modules/vue-upload-component/dist/vue-upload-component.js
 var vue_upload_component = __webpack_require__(948);
 var vue_upload_component_default = /*#__PURE__*/__webpack_require__.n(vue_upload_component);
 // EXTERNAL MODULE: ./node_modules/vue-easy-lightbox/dist/vue-easy-lightbox.es5.esm.min.js
 var vue_easy_lightbox_es5_esm_min = __webpack_require__(470);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/ImageUpload.vue?vue&type=script&lang=ts
-
-
+;// CONCATENATED MODULE: ./node_modules/ts-loader/index.js??clonedRuleSet-1!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/ImageUpload.vue?vue&type=script&lang=ts
 
 
 
 /* harmony default export */ const ImageUploadvue_type_script_lang_ts = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
-  components: {
-    FileUpload: (vue_upload_component_default()),
-    VueEasyLightbox: vue_easy_lightbox_es5_esm_min/* default */.Z,
-  },
-  data() {
-    return {
-      files: [],
-      images: [],
-      visible: false,
-      index: 0,
-    };
-  },
-  methods: {
-    inputFile(newFile, oldFile, prevent) {
-      this.images.push(newFile.url);
-      this.$emit("changeImage", newFile);
+    components: {
+        FileUpload: (vue_upload_component_default()),
+        VueEasyLightbox: vue_easy_lightbox_es5_esm_min/* default */.Z,
     },
-    inputFilter(newFile, oldFile, prevent) {
-      if (newFile && !oldFile) {
-        if (!/\.(gif|jpg|jpeg|png|webp)$/i.test(newFile.name)) {
-          this.alert("Your choice is not a picture");
-          return prevent();
-        }
-      }
-      if (newFile && (!oldFile || newFile.file !== oldFile.file)) {
-        newFile.url = "";
-        let URL = window.URL || window.webkitURL;
-        if (URL && URL.createObjectURL) {
-          newFile.url = URL.createObjectURL(newFile.file);
-        }
-      }
+    data() {
+        return {
+            files: [],
+            images: [],
+            visible: false,
+            index: 0,
+        };
     },
-    showImg(index) {
-      this.index = index;
-      this.visible = true;
+    methods: {
+        // eslint-disable-next-line no-unused-vars
+        inputFile(newFile, oldFile, prevent) {
+            this.images.push(newFile.url);
+            this.$emit("changeImage", newFile);
+        },
+        inputFilter(newFile, oldFile, prevent) {
+            if (newFile && !oldFile) {
+                if (!/\.(gif|jpg|jpeg|png|webp)$/i.test(newFile.name)) {
+                    alert("Your choice is not a picture");
+                    return prevent();
+                }
+            }
+            if (newFile && (!oldFile || newFile.file !== oldFile.file)) {
+                newFile.url = "";
+                let URL = window.URL || window.webkitURL;
+                if (URL && URL.createObjectURL) {
+                    newFile.url = URL.createObjectURL(newFile.file);
+                }
+            }
+        },
+        showImg(index) {
+            this.index = index;
+            this.visible = true;
+        },
+        handleHide() {
+            this.visible = false;
+        },
     },
-    handleHide() {
-      this.visible = false;
-    },
-  },
 }));
 
 ;// CONCATENATED MODULE: ./src/components/ImageUpload.vue?vue&type=script&lang=ts
@@ -881,182 +955,178 @@ var vue_easy_lightbox_es5_esm_min = __webpack_require__(470);
 
 
 ;
-ImageUploadvue_type_script_lang_ts.render = ImageUploadvue_type_template_id_b78313d4_scoped_true_render
-ImageUploadvue_type_script_lang_ts.__scopeId = "data-v-b78313d4"
+ImageUploadvue_type_script_lang_ts.render = ImageUploadvue_type_template_id_3b69b15e_scoped_true_render
+ImageUploadvue_type_script_lang_ts.__scopeId = "data-v-3b69b15e"
 
 /* harmony default export */ const ImageUpload = (ImageUploadvue_type_script_lang_ts);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/ImagePreview.vue?vue&type=template&id=bf8769da&scoped=true
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/ImagePreview.vue?vue&type=template&id=a1b2b00c&scoped=true
 
-const ImagePreviewvue_type_template_id_bf8769da_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-bf8769da")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-bf8769da")
-const ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_1 = { class: "image-preview" }
-const ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_2 = { id: "save" }
-const ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("br", null, null, -1)
-const ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_4 = {
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-a1b2b00c")
+const ImagePreviewvue_type_template_id_a1b2b00c_scoped_true_hoisted_1 = { class: "image-preview" }
+const ImagePreviewvue_type_template_id_a1b2b00c_scoped_true_hoisted_2 = { id: "save" }
+const ImagePreviewvue_type_template_id_a1b2b00c_scoped_true_hoisted_3 = ["value"]
+const ImagePreviewvue_type_template_id_a1b2b00c_scoped_true_hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("br", null, null, -1)
+const ImagePreviewvue_type_template_id_a1b2b00c_scoped_true_hoisted_5 = {
   key: 0,
   class: "image-container"
 }
+const ImagePreviewvue_type_template_id_a1b2b00c_scoped_true_hoisted_6 = ["onClick"]
+const ImagePreviewvue_type_template_id_a1b2b00c_scoped_true_hoisted_7 = ["src"]
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const ImagePreviewvue_type_template_id_bf8769da_scoped_true_render = /*#__PURE__*/ImagePreviewvue_type_template_id_bf8769da_scoped_true_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+function ImagePreviewvue_type_template_id_a1b2b00c_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_vue_easy_lightbox = (0,runtime_dom_esm_bundler_js_.resolveComponent)("vue-easy-lightbox")
 
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_1, [
-    (0,runtime_dom_esm_bundler_js_.createVNode)("div", ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_2, [
-      (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("select", {
-        "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => ($data.filetype = $event))
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", ImagePreviewvue_type_template_id_a1b2b00c_scoped_true_hoisted_1, [
+    (0,runtime_dom_esm_bundler_js_.createElementVNode)("div", ImagePreviewvue_type_template_id_a1b2b00c_scoped_true_hoisted_2, [
+      (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createElementVNode)("select", {
+        "onUpdate:modelValue": _cache[0] || (_cache[0] = $event => (_ctx.filetype = $event))
       }, [
-        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)($data.options, (option) => {
-          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("option", {
+        ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createElementBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)(_ctx.options, (option) => {
+          return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("option", {
             value: option.value,
             key: option.text
-          }, (0,runtime_dom_esm_bundler_js_.toDisplayString)(option.text), 9, ["value"]))
+          }, (0,runtime_dom_esm_bundler_js_.toDisplayString)(option.text), 9, ImagePreviewvue_type_template_id_a1b2b00c_scoped_true_hoisted_3))
         }), 128))
       ], 512), [
-        [runtime_dom_esm_bundler_js_.vModelSelect, $data.filetype]
+        [runtime_dom_esm_bundler_js_.vModelSelect, _ctx.filetype]
       ]),
-      (0,runtime_dom_esm_bundler_js_.createVNode)("p", {
-        onClick: _cache[2] || (_cache[2] = (...args) => ($options.downloadZip && $options.downloadZip(...args)))
+      (0,runtime_dom_esm_bundler_js_.createElementVNode)("p", {
+        onClick: _cache[1] || (_cache[1] = (...args) => (_ctx.downloadZip && _ctx.downloadZip(...args)))
       }, "save files")
     ]),
-    ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_3,
-    ($data.imgs.length > 0)
-      ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", ImagePreviewvue_type_template_id_bf8769da_scoped_true_hoisted_4, [
-          ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)($data.imgs, (src, index) => {
-            return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", {
+    ImagePreviewvue_type_template_id_a1b2b00c_scoped_true_hoisted_4,
+    (_ctx.imgs.length > 0)
+      ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", ImagePreviewvue_type_template_id_a1b2b00c_scoped_true_hoisted_5, [
+          ((0,runtime_dom_esm_bundler_js_.openBlock)(true), (0,runtime_dom_esm_bundler_js_.createElementBlock)(runtime_dom_esm_bundler_js_.Fragment, null, (0,runtime_dom_esm_bundler_js_.renderList)(_ctx.imgs, (src, index) => {
+            return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", {
               key: index,
               class: "pic",
-              onClick: () => $options.showImg(index)
+              onClick: () => _ctx.showImg(index)
             }, [
-              (0,runtime_dom_esm_bundler_js_.createVNode)("img", {
+              (0,runtime_dom_esm_bundler_js_.createElementVNode)("img", {
                 height: "140",
                 src: src
-              }, null, 8, ["src"])
-            ], 8, ["onClick"]))
+              }, null, 8, ImagePreviewvue_type_template_id_a1b2b00c_scoped_true_hoisted_7)
+            ], 8, ImagePreviewvue_type_template_id_a1b2b00c_scoped_true_hoisted_6))
           }), 128))
         ]))
       : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true),
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_vue_easy_lightbox, {
       escDisabled: "",
       moveDisabled: "",
-      visible: $data.visible,
-      imgs: $data.imgs,
-      index: $data.index,
-      onHide: $options.handleHide
+      visible: _ctx.visible,
+      imgs: _ctx.imgs,
+      index: _ctx.index,
+      onHide: _ctx.handleHide
     }, null, 8, ["visible", "imgs", "index", "onHide"])
   ]))
-})
-;// CONCATENATED MODULE: ./src/components/ImagePreview.vue?vue&type=template&id=bf8769da&scoped=true
+}
+;// CONCATENATED MODULE: ./src/components/ImagePreview.vue?vue&type=template&id=a1b2b00c&scoped=true
 
 // EXTERNAL MODULE: ./node_modules/file-saver/dist/FileSaver.min.js
 var FileSaver_min = __webpack_require__(162);
 // EXTERNAL MODULE: ./node_modules/jszip/dist/jszip.min.js
 var jszip_min = __webpack_require__(733);
 var jszip_min_default = /*#__PURE__*/__webpack_require__.n(jszip_min);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/ImagePreview.vue?vue&type=script&lang=ts
+;// CONCATENATED MODULE: ./node_modules/ts-loader/index.js??clonedRuleSet-1!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/ImagePreview.vue?vue&type=script&lang=ts
 
 
 
 
 
-/* harmony default export */ const ImagePreviewvue_type_script_lang_ts = ({
-  components: {
-    VueEasyLightbox: vue_easy_lightbox_es5_esm_min/* default */.Z,
-  },
-  props: {
-    images: Array,
-  },
-  data() {
-    return {
-      imgs: [],
-      visible: false,
-      index: 0,
-      filetype: "png",
-      options: [
-        { text: "png", value: "png" },
-        { text: "jpg", value: "jpg" },
-        { text: "bmp", value: "bmp" },
-        { text: "ico", value: "ico" },
-        { text: "gif", value: "gif" },
-      ],
-    };
-  },
-  methods: {
-    createObjectURL(image) {
-      return URL.createObjectURL(image);
+/* harmony default export */ const ImagePreviewvue_type_script_lang_ts = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
+    components: {
+        VueEasyLightbox: vue_easy_lightbox_es5_esm_min/* default */.Z,
     },
-    async safeImage(cli, file, format) {
-      let data = await file
-        .arrayBuffer()
-        .then((image) => new Uint8Array(image));
-      return cli.save(data, format);
+    props: {
+        images: {
+            type: Array,
+            required: true,
+        },
     },
-    async downloadZip() {
-      let cli = await System.import(
-        "https://lenna.app/lenna-cli/remoteEntry.js"
-      ).then((module) => {
-        module.init(__webpack_require__.S["default"]);
-        return module.get("default").then((cli) => {
-          return cli();
-        });
-      });
-
-      let zip = new (jszip_min_default())();
-      const toast = (0,esm/* useToast */.pm)();
-      const imageCount = this.images.length;
-      if (imageCount < 1) {
-        return;
-      }
-      let compressedCount = 0;
-      toast.info(`compressing of ${this.images.length} images started`);
-      let promises = this.images.map((image) => {
-        let type = `image/${this.filetype}`;
-
-        return this.safeImage(cli, image, this.filetype).then(
-          (compressed_image) => {
-            let file = new File([compressed_image], image.name, { type });
-            compressedCount++;
-            toast.success(
-              `compressed ${image.name} ${compressedCount} / ${imageCount} images`
-            );
-            return zip.file(
-              `${image.name.replace(/(\.[^/.]+)+$/, "")}.${this.filetype}`,
-              file
-            );
-          }
-        );
-      });
-      await Promise.all(promises);
-      zip.generateAsync({ type: "blob" }).then(function (blob) {
-        (0,FileSaver_min.saveAs)(blob, "images.zip");
-      });
+    data() {
+        return {
+            imgs: [],
+            visible: false,
+            index: 0,
+            filetype: "png",
+            options: [
+                { text: "png", value: "png" },
+                { text: "jpg", value: "jpg" },
+                { text: "bmp", value: "bmp" },
+                { text: "ico", value: "ico" },
+                { text: "gif", value: "gif" },
+            ],
+        };
     },
-    show() {
-      this.visible = true;
+    methods: {
+        createObjectURL(image) {
+            return URL.createObjectURL(image);
+        },
+        async safeImage(cli, file, format) {
+            let data = await file
+                .arrayBuffer()
+                .then((image) => new Uint8Array(image));
+            return cli.save(data, format);
+        },
+        async downloadZip() {
+            // eslint-disable-next-line no-undef
+            let cli = await System.import("https://lenna.app/lenna-cli/remoteEntry.js").then((module) => {
+                // eslint-disable-next-line no-undef
+                module.init(__webpack_require__.S["default"]);
+                return module.get("default").then((cli) => {
+                    return cli();
+                });
+            });
+            let zip = new (jszip_min_default())();
+            const toast = (0,esm/* useToast */.pm)();
+            const imageCount = this.images.length;
+            if (imageCount < 1) {
+                return;
+            }
+            let compressedCount = 0;
+            toast.info(`compressing of ${this.images.length} images started`);
+            let promises = this.images.map((image) => {
+                let type = `image/${this.filetype}`;
+                return this.safeImage(cli, image, this.filetype).then((compressed_image) => {
+                    let file = new File([compressed_image], image.name, { type });
+                    compressedCount++;
+                    toast.success(`compressed ${image.name} ${compressedCount} / ${imageCount} images`);
+                    return zip.file(`${image.name.replace(/(\.[^/.]+)+$/, "")}.${this.filetype}`, file);
+                });
+            });
+            await Promise.all(promises);
+            zip.generateAsync({ type: "blob" }).then(function (blob) {
+                (0,FileSaver_min.saveAs)(blob, "images.zip");
+            });
+        },
+        show() {
+            this.visible = true;
+        },
+        showImg(index) {
+            this.index = index;
+            this.visible = true;
+        },
+        handleHide() {
+            this.visible = false;
+        },
     },
-    showImg(index) {
-      this.index = index;
-      this.visible = true;
+    watch: {
+        $props: {
+            handler() {
+                this.imgs = [];
+                this.index = 0;
+                this.images.forEach((image) => {
+                    this.imgs.push(this.createObjectURL(image));
+                });
+            },
+            deep: true,
+            immediate: true,
+        },
     },
-    handleHide() {
-      this.visible = false;
-    },
-  },
-  watch: {
-    $props: {
-      handler() {
-        this.imgs = [];
-        this.index = 0;
-        this.images.forEach((image) => {
-          this.imgs.push(this.createObjectURL(image));
-        });
-      },
-      deep: true,
-      immediate: true,
-    },
-  },
-});
+}));
 
 ;// CONCATENATED MODULE: ./src/components/ImagePreview.vue?vue&type=script&lang=ts
  
@@ -1066,113 +1136,117 @@ var jszip_min_default = /*#__PURE__*/__webpack_require__.n(jszip_min);
 
 
 ;
-ImagePreviewvue_type_script_lang_ts.render = ImagePreviewvue_type_template_id_bf8769da_scoped_true_render
-ImagePreviewvue_type_script_lang_ts.__scopeId = "data-v-bf8769da"
+ImagePreviewvue_type_script_lang_ts.render = ImagePreviewvue_type_template_id_a1b2b00c_scoped_true_render
+ImagePreviewvue_type_script_lang_ts.__scopeId = "data-v-a1b2b00c"
 
 /* harmony default export */ const ImagePreview = (ImagePreviewvue_type_script_lang_ts);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Config.vue?vue&type=template&id=2ba0a7b8&scoped=true
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Config.vue?vue&type=template&id=51236dc0&scoped=true
 
-const Configvue_type_template_id_2ba0a7b8_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-2ba0a7b8")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-2ba0a7b8")
-const Configvue_type_template_id_2ba0a7b8_scoped_true_hoisted_1 = {
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-51236dc0")
+const Configvue_type_template_id_51236dc0_scoped_true_hoisted_1 = {
   key: 1,
   class: "config"
 }
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const Configvue_type_template_id_2ba0a7b8_scoped_true_render = /*#__PURE__*/Configvue_type_template_id_2ba0a7b8_scoped_true_withId((_ctx, _cache, $props, $setup, $data, $options) => {
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)(runtime_dom_esm_bundler_js_.Fragment, null, [
-    ($props.plugins)
-      ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("button", {
+function Configvue_type_template_id_51236dc0_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", null, [
+    (_ctx.plugins)
+      ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("button", {
           key: 0,
-          onClick: _cache[1] || (_cache[1] = (...args) => ($options.generateConfigUrlBase64 && $options.generateConfigUrlBase64(...args)))
+          onClick: _cache[0] || (_cache[0] = (...args) => (_ctx.generateConfigUrlBase64 && _ctx.generateConfigUrlBase64(...args)))
         }, " generate actual config url "))
       : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true),
-    ($data.base64config)
-      ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Configvue_type_template_id_2ba0a7b8_scoped_true_hoisted_1, [
-          (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createVNode)("textarea", {
-            "onUpdate:modelValue": _cache[2] || (_cache[2] = $event => ($data.base64config = $event)),
+    (_ctx.base64config)
+      ? ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Configvue_type_template_id_51236dc0_scoped_true_hoisted_1, [
+          (0,runtime_dom_esm_bundler_js_.withDirectives)((0,runtime_dom_esm_bundler_js_.createElementVNode)("textarea", {
+            "onUpdate:modelValue": _cache[1] || (_cache[1] = $event => (_ctx.base64config = $event)),
             readonly: true
           }, null, 512), [
-            [runtime_dom_esm_bundler_js_.vModelText, $data.base64config]
+            [runtime_dom_esm_bundler_js_.vModelText, _ctx.base64config]
           ])
         ]))
       : (0,runtime_dom_esm_bundler_js_.createCommentVNode)("", true),
-    (0,runtime_dom_esm_bundler_js_.createVNode)("button", {
-      onClick: _cache[3] || (_cache[3] = (...args) => ($options.generateLennaConfig && $options.generateLennaConfig(...args)))
+    (0,runtime_dom_esm_bundler_js_.createElementVNode)("button", {
+      onClick: _cache[2] || (_cache[2] = (...args) => (_ctx.generateLennaConfig && _ctx.generateLennaConfig(...args)))
     }, "lenna.yml")
-  ], 64))
-})
-;// CONCATENATED MODULE: ./src/components/Config.vue?vue&type=template&id=2ba0a7b8&scoped=true
+  ]))
+}
+;// CONCATENATED MODULE: ./src/components/Config.vue?vue&type=template&id=51236dc0&scoped=true
 
 // EXTERNAL MODULE: ./node_modules/yaml/browser/index.js
-var browser = __webpack_require__(741);
+var browser = __webpack_require__(6);
 var browser_default = /*#__PURE__*/__webpack_require__.n(browser);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Config.vue?vue&type=script&lang=js
+;// CONCATENATED MODULE: ./src/controllers/config_generator.ts
 
-
-/* harmony default export */ const Configvue_type_script_lang_js = ({
-  name: "Plugin",
-  props: {
-    plugins: Array,
-  },
-  data() {
-    return {
-      url: "https://lenna.app/?config=",
-      base64config: "",
-    };
-  },
-  methods: {
-    download(filename, text) {
-      var element = document.createElement("a");
-      element.setAttribute(
-        "href",
-        "data:text/plain;charset=utf-8," + encodeURIComponent(text)
-      );
-      element.setAttribute("download", filename);
-
-      element.style.display = "none";
-      document.body.appendChild(element);
-
-      element.click();
-
-      document.body.removeChild(element);
-    },
-    generateConfigUrlBase64() {
-      let plugins = [];
-      for (let id in this.plugins) {
-        let plugin = this.plugins[id];
+const generateBase64Config = (plugins) => {
+    const configs = [];
+    for (const plugin of plugins) {
         if (plugin.enabled) {
-          plugins.push({
-            name: plugin.name,
-            enabled: plugin.enabled,
-            config: plugin.config,
-          });
+            const config = plugin.config;
+            config.name = plugin.name;
+            configs.push(config);
         }
-      }
-      let config = JSON.stringify(plugins);
-      this.base64config = this.url + btoa(config);
-    },
-    generateLennaConfig() {
-      let plugins = [];
-      for (let id in this.plugins) {
-        let plugin = this.plugins[id];
+    }
+    const config = JSON.stringify(configs);
+    return btoa(config);
+};
+const generateYamlConfig = (plugins) => {
+    const configs = [];
+    for (const plugin of plugins) {
         if (plugin.enabled) {
-          let config = plugin.config;
-          config.id = plugin.plugin.name();
-          plugins.push(config);
+            const config = plugin.config;
+            config.name = plugin.name;
+            configs.push(config);
         }
-      }
-      let comment = "# https://github.com/lenna-project/lenna-cli\n"
-      + "# lenna-cli images_path --config lenna.yml\n"
-      let lenna_yml = browser_default().stringify({"pipeline": plugins });
-      this.download("lenna.yml", comment + lenna_yml);
-    },
-  },
-});
+    }
+    const comment = "# https://github.com/lenna-project/lenna-cli\n" +
+        "# lenna-cli images_path --config lenna.yml\n";
+    const yml_config = browser_default().stringify({ pipeline: configs });
+    return comment + yml_config;
+};
 
-;// CONCATENATED MODULE: ./src/components/Config.vue?vue&type=script&lang=js
+
+;// CONCATENATED MODULE: ./node_modules/ts-loader/index.js??clonedRuleSet-1!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Config.vue?vue&type=script&lang=ts
+
+
+/* harmony default export */ const Configvue_type_script_lang_ts = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
+    name: "Config",
+    props: {
+        plugins: {
+            type: Array,
+            required: true,
+        },
+    },
+    data() {
+        return {
+            url: "https://lenna.app/?config=",
+            base64config: "",
+        };
+    },
+    methods: {
+        download(filename, text) {
+            var element = document.createElement("a");
+            element.setAttribute("href", "data:text/plain;charset=utf-8," + encodeURIComponent(text));
+            element.setAttribute("download", filename);
+            element.style.display = "none";
+            document.body.appendChild(element);
+            element.click();
+            document.body.removeChild(element);
+        },
+        generateConfigUrlBase64() {
+            let config = generateBase64Config(this.plugins);
+            this.base64config = this.url + config;
+        },
+        generateLennaConfig() {
+            let lenna_yml = generateYamlConfig(this.plugins);
+            this.download("lenna.yml", lenna_yml);
+        },
+    },
+}));
+
+;// CONCATENATED MODULE: ./src/components/Config.vue?vue&type=script&lang=ts
  
 ;// CONCATENATED MODULE: ./src/components/Config.vue
 
@@ -1180,33 +1254,33 @@ var browser_default = /*#__PURE__*/__webpack_require__.n(browser);
 
 
 ;
-Configvue_type_script_lang_js.render = Configvue_type_template_id_2ba0a7b8_scoped_true_render
-Configvue_type_script_lang_js.__scopeId = "data-v-2ba0a7b8"
+Configvue_type_script_lang_ts.render = Configvue_type_template_id_51236dc0_scoped_true_render
+Configvue_type_script_lang_ts.__scopeId = "data-v-51236dc0"
 
-/* harmony default export */ const Config = (Configvue_type_script_lang_js);
+/* harmony default export */ const Config = (Configvue_type_script_lang_ts);
 ;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/components/Help.vue?vue&type=template&id=c239f060&scoped=true
 
-const Helpvue_type_template_id_c239f060_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-c239f060")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-c239f060")
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-c239f060")
 const Helpvue_type_template_id_c239f060_scoped_true_hoisted_1 = { class: "help" }
-const Helpvue_type_template_id_c239f060_scoped_true_hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("h2", null, "How to Convert Images", -1)
-const Helpvue_type_template_id_c239f060_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("ol", null, [
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("li", null, "Drop images into left box."),
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("li", null, "Enable the plugins you want to use in convertion."),
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("li", null, "Order the plugins via drag and drop"),
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("li", null, "Press the process button."),
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("li", null, "Select file type you want to download on the right."),
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("li", null, "Download your converted images compressed as zip.")
+const Helpvue_type_template_id_c239f060_scoped_true_hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("h2", null, "How to Convert Images", -1)
+const Helpvue_type_template_id_c239f060_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("ol", null, [
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("li", null, "Drop images into left box."),
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("li", null, "Enable the plugins you want to use in convertion."),
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("li", null, "Order the plugins via drag and drop"),
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("li", null, "Press the process button."),
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("li", null, "Select file type you want to download on the right."),
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("li", null, "Download your converted images compressed as zip.")
 ], -1)
+const Helpvue_type_template_id_c239f060_scoped_true_hoisted_4 = [
+  Helpvue_type_template_id_c239f060_scoped_true_hoisted_2,
+  Helpvue_type_template_id_c239f060_scoped_true_hoisted_3
+]
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const Helpvue_type_template_id_c239f060_scoped_true_render = /*#__PURE__*/Helpvue_type_template_id_c239f060_scoped_true_withId((_ctx, _cache) => {
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Helpvue_type_template_id_c239f060_scoped_true_hoisted_1, [
-    Helpvue_type_template_id_c239f060_scoped_true_hoisted_2,
-    Helpvue_type_template_id_c239f060_scoped_true_hoisted_3
-  ]))
-})
+function Helpvue_type_template_id_c239f060_scoped_true_render(_ctx, _cache) {
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Helpvue_type_template_id_c239f060_scoped_true_hoisted_1, Helpvue_type_template_id_c239f060_scoped_true_hoisted_4))
+}
 ;// CONCATENATED MODULE: ./src/components/Help.vue?vue&type=template&id=c239f060&scoped=true
 
 ;// CONCATENATED MODULE: ./src/components/Help.vue
@@ -1218,7 +1292,7 @@ Help_script.render = Helpvue_type_template_id_c239f060_scoped_true_render
 Help_script.__scopeId = "data-v-c239f060"
 
 /* harmony default export */ const Help = (Help_script);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/views/Home.vue?vue&type=script&lang=js
+;// CONCATENATED MODULE: ./node_modules/ts-loader/index.js??clonedRuleSet-1!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/views/Home.vue?vue&type=script&lang=ts
 
 
 
@@ -1228,145 +1302,100 @@ Help_script.__scopeId = "data-v-c239f060"
 
 
 
-
-
-/* harmony default export */ const Homevue_type_script_lang_js = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
-  name: "Home",
-  components: {
-    Slide: vue3_burger_menu_common.Slide,
-    PluginsManager: PluginsManager,
-    ImageUpload: ImageUpload,
-    ImagePreview: ImagePreview,
-    Config: Config,
-    Help: Help,
-  },
-  data() {
-    return {
-      pluginUrl: "",
-      just: null,
-      defaultConfig: [],
-      defaultPlugins: null,
-      sourceImages: [],
-      resultImages: [],
-      steps: [
-        {
-          target: ".v-step-0",
-          header: {
-            title: "Get Started",
-          },
-          content: `Discover <strong>Lenna App</strong>!`,
-        },
-        {
-          target: ".v-step-1",
-          content:
-            "Get some information about this page and links to project page and desktop app.",
-        },
-        {
-          target: ".v-step-3",
-          content: "Place images you want convert from your computer here.",
-        },
-        {
-          target: ".v-step-4",
-          content:
-            "Change the config on how you want the images to be converted.",
-        },
-        {
-          target: ".v-step-5",
-          content: "Press the button to start convertion.",
-        },
-        {
-          target: ".v-step-6",
-          content: "You can view the result here and download the images.",
-        },
-      ],
-    };
-  },
-  mounted: function () {
-    let madeTour = localStorage.getItem("madeTour");
-    console.log(madeTour)
-    if (!madeTour) {
-      localStorage.setItem("madeTour", true);
-      this.$tours["Home"].start();
-    }
-  },
-  setup: () => {
-    const imageUpload = (0,runtime_dom_esm_bundler_js_.ref)(null);
-    const pluginsManager = (0,runtime_dom_esm_bundler_js_.ref)(null);
-    return {
-      imageUpload,
-      pluginsManager,
-    };
-  },
-  created() {
-    if (this.$route.query.config) {
-      this.defaultConfig = JSON.parse(atob(this.$route.query.config));
-      console.log(this.defaultConfig);
-    }
-    if (this.$route.query.plugin) {
-      this.defaultPlugins = [this.$route.query.plugin];
-    }
-    if (this.$route.query.just) {
-      this.just = this.$route.query.just;
-    }
-  },
-  methods: {
-    loadPlugin(pluginUrl) {
-      console.log("loaded plugin: ", pluginUrl);
-      this.pluginsManager.importPlugin(pluginUrl, pluginUrl);
+/* harmony default export */ const Homevue_type_script_lang_ts = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
+    name: "Home",
+    components: {
+        Slide: vue3_burger_menu_common.Slide,
+        PluginsManager: PluginsManager,
+        ImageUpload: ImageUpload,
+        ImagePreview: ImagePreview,
+        Config: Config,
+        Help: Help,
     },
-    onMorePlugins() {
-      window.location.replace("/marketplace");
+    data() {
+        return {
+            pluginUrl: "",
+            just: null,
+            defaultConfig: [],
+            defaultPlugins: [],
+            sourceImages: [],
+            resultImages: [],
+        };
     },
-    changeImages(files) {
-      this.sourceImages.push(files.file);
+    setup: () => {
+        const imageUpload = (0,runtime_dom_esm_bundler_js_.ref)(ImageUpload);
+        const pluginsManager = (0,runtime_dom_esm_bundler_js_.ref)(PluginsManager);
+        return {
+            imageUpload,
+            pluginsManager,
+        };
     },
-    async processImages() {
-      const toast = (0,esm/* useToast */.pm)();
-      const imageCount = this.sourceImages.length;
-      let convertedCount = 0;
-      toast.info(`converting ${imageCount} images started`);
-      this.resultImages = [];
-      let tasks = [];
-      for (let sourceImage of this.sourceImages) {
-        tasks.push(
-          this.process(sourceImage).then((image) => {
-            let file = new File([image], sourceImage.name, {
-              type: "image/png",
-            });
-            this.resultImages.push(file);
-            convertedCount++;
-            toast.success(
-              `converted ${convertedCount} of ${imageCount} images`
-            );
-          })
-        );
-      }
-      this.imageUpload.images = [];
-      this.sourceImages = [];
-      return Promise.all(tasks).then(() => {
-        toast.info(`converted ${convertedCount} images`);
-      });
-    },
-    async process(imageFile) {
-      nprogress.configure({ parent: "#process" });
-      nprogress.start();
-      let img = new Uint8Array(await imageFile.arrayBuffer());
-      for (let id in this.pluginsManager.plugins) {
-        nprogress.inc(0.2);
-        let plugin = this.pluginsManager.plugins[id];
-        if (plugin.enabled) {
-          img = await plugin.plugin.process(plugin.config, img);
+    created() {
+        if (this.$route.query["config"]) {
+            this.defaultConfig = JSON.parse(
+            // eslint-disable-next-line no-undef
+            Buffer.from(this.$route.query["config"].toString(), "base64").toString("binary"));
+            console.log(this.defaultConfig);
         }
-      }
-
-      nprogress.done();
-      nprogress.remove();
-      return img;
+        if (this.$route.query.plugin) {
+            this.defaultPlugins = [this.$route.query.plugin.toString()];
+        }
+        if (this.$route.query.just) {
+            this.just = this.$route.query.just.toString();
+        }
     },
-  },
+    methods: {
+        loadPlugin(pluginUrl) {
+            console.log("loaded plugin: ", pluginUrl);
+            this.pluginsManager.importPlugin(pluginUrl, pluginUrl);
+        },
+        onMorePlugins() {
+            window.location.replace("/marketplace");
+        },
+        changeImages(files) {
+            this.sourceImages.push(files.file);
+        },
+        async processImages() {
+            const toast = (0,esm/* useToast */.pm)();
+            const imageCount = this.sourceImages.length;
+            let convertedCount = 0;
+            toast.info(`converting ${imageCount} images started`);
+            this.resultImages = [];
+            let tasks = [];
+            for (let sourceImage of this.sourceImages) {
+                tasks.push(this.process(sourceImage).then((image) => {
+                    let file = new File([image], sourceImage.name, {
+                        type: "image/png",
+                    });
+                    this.resultImages.push(file);
+                    convertedCount++;
+                    toast.success(`converted ${convertedCount} of ${imageCount} images`);
+                }));
+            }
+            this.imageUpload.images = [];
+            this.sourceImages = [];
+            return Promise.all(tasks).then(() => {
+                toast.info(`converted ${convertedCount} images`);
+            });
+        },
+        async process(imageFile) {
+            nprogress.configure({ parent: "#process" });
+            nprogress.start();
+            let img = new Uint8Array(await imageFile.arrayBuffer());
+            for (let plugin of this.pluginsManager.plugins) {
+                nprogress.inc(0.2);
+                if (plugin.enabled) {
+                    img = await plugin.plugin.process(plugin.config, img);
+                }
+            }
+            nprogress.done();
+            nprogress.remove();
+            return img;
+        },
+    },
 }));
 
-;// CONCATENATED MODULE: ./src/views/Home.vue?vue&type=script&lang=js
+;// CONCATENATED MODULE: ./src/views/Home.vue?vue&type=script&lang=ts
  
 ;// CONCATENATED MODULE: ./src/views/Home.vue
 
@@ -1374,35 +1403,34 @@ Help_script.__scopeId = "data-v-c239f060"
 
 
 ;
-Homevue_type_script_lang_js.render = Homevue_type_template_id_f0a67292_scoped_true_render
-Homevue_type_script_lang_js.__scopeId = "data-v-f0a67292"
+Homevue_type_script_lang_ts.render = Homevue_type_template_id_0e5fdee8_scoped_true_render
+Homevue_type_script_lang_ts.__scopeId = "data-v-0e5fdee8"
 
-/* harmony default export */ const Home = (Homevue_type_script_lang_js);
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/views/About.vue?vue&type=template&id=36a1014e&scoped=true
+/* harmony default export */ const Home = (Homevue_type_script_lang_ts);
+;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[1]!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/views/About.vue?vue&type=template&id=603296e7&scoped=true
 
-const Aboutvue_type_template_id_36a1014e_scoped_true_withId = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.withScopeId)("data-v-36a1014e")
 
-;(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-36a1014e")
-const Aboutvue_type_template_id_36a1014e_scoped_true_hoisted_1 = { class: "about" }
-const Aboutvue_type_template_id_36a1014e_scoped_true_hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("h1", null, "About Lenna Project", -1)
-const Aboutvue_type_template_id_36a1014e_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("p", null, " Lenna is a library for image processing algorithms. The web page allows to test and use them. ", -1)
-const Aboutvue_type_template_id_36a1014e_scoped_true_hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createStaticVNode)("<h2 data-v-36a1014e>Thanks</h2><ul data-v-36a1014e><li data-v-36a1014e>Silvia (<a href=\"https://github.com/silvia-odwyer/photon\" data-v-36a1014e>photon</a>)</li></ul><h2 data-v-36a1014e>Plugins</h2><p data-v-36a1014e> Lenna allows to plug in more algorithms. The plugins can be activated for use in the <a href=\"https://lenna.app/marketplace/\" data-v-36a1014e>marketplace</a>. Some examples can be found at <a href=\"https://github.com/lenna-project/lenna-plugins\" data-v-36a1014e>lenna-project/lenna-plugins</a> on github. <br data-v-36a1014e> Following a list of available plugins: <ul data-v-36a1014e><li data-v-36a1014e><b data-v-36a1014e>blur</b> - Blurs the image. The strength can be configured.</li><li data-v-36a1014e><b data-v-36a1014e>dramatic</b> - Gives the image a dramatic touch.</li><li data-v-36a1014e><b data-v-36a1014e>exif</b> - Allows to clear exif data of the image.</li><li data-v-36a1014e><b data-v-36a1014e>rotate</b> - Rotates the image.</li><li data-v-36a1014e><b data-v-36a1014e>canny</b> - Shows edges of objects in the image.</li></ul></p><h2 data-v-36a1014e>Command Line Interface</h2>", 5)
-const Aboutvue_type_template_id_36a1014e_scoped_true_hoisted_9 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("iframe", {
+(0,runtime_dom_esm_bundler_js_.pushScopeId)("data-v-603296e7")
+const Aboutvue_type_template_id_603296e7_scoped_true_hoisted_1 = { class: "about" }
+const Aboutvue_type_template_id_603296e7_scoped_true_hoisted_2 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("h1", null, "About Lenna Project", -1)
+const Aboutvue_type_template_id_603296e7_scoped_true_hoisted_3 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("p", null, " Lenna is a library for image processing algorithms. The web page allows to test and use them. ", -1)
+const Aboutvue_type_template_id_603296e7_scoped_true_hoisted_4 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createStaticVNode)("<h2 data-v-603296e7>Thanks</h2><ul data-v-603296e7><li data-v-603296e7>Silvia (<a href=\"https://github.com/silvia-odwyer/photon\" data-v-603296e7>photon</a>)</li></ul><h2 data-v-603296e7>Plugins</h2><p data-v-603296e7> Lenna allows to plug in more algorithms. The plugins can be activated for use in the <a href=\"https://lenna.app/marketplace/\" data-v-603296e7>marketplace</a>. Some examples can be found at <a href=\"https://github.com/lenna-project/lenna-plugins\" data-v-603296e7>lenna-project/lenna-plugins</a> on github. <br data-v-603296e7> Following a list of available plugins: <ul data-v-603296e7><li data-v-603296e7><b data-v-603296e7>blur</b> - Blurs the image. The strength can be configured.</li><li data-v-603296e7><b data-v-603296e7>dramatic</b> - Gives the image a dramatic touch.</li><li data-v-603296e7><b data-v-603296e7>exif</b> - Allows to clear exif data of the image.</li><li data-v-603296e7><b data-v-603296e7>rotate</b> - Rotates the image.</li><li data-v-603296e7><b data-v-603296e7>canny</b> - Shows edges of objects in the image.</li></ul></p><h2 data-v-603296e7>Jupyter Notebooks</h2> View some notebooks <a href=\"/jupyter\" data-v-603296e7>here</a> to see how the plugins can be used in python. <h2 data-v-603296e7>Command Line Interface</h2>", 9)
+const _hoisted_13 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("iframe", {
   src: "https://snapcraft.io/lenna-cli/embedded?button=black&summary=true",
   frameborder: "0",
   width: "100%",
   height: "380px",
   style: {"border":"1px solid #CCC","border-radius":"2px"}
 }, null, -1)
-const Aboutvue_type_template_id_36a1014e_scoped_true_hoisted_10 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("p", null, [
+const _hoisted_14 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("p", null, [
   /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)(" A command line interface allows to use the algorithms and run them on multiple images at once. The source for "),
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("a", { href: "https://github.com/lenna-project/lenna-cli" }, "lenna-cli"),
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("a", { href: "https://github.com/lenna-project/lenna-cli" }, "lenna-cli"),
   /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)(" can be found on github. ")
 ], -1)
-const _hoisted_11 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("img", { src: "https://raw.githubusercontent.com/lenna-project/lenna-cli/main/docs/images/run.gif" }, null, -1)
-const _hoisted_12 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("h2", null, "Desktop App", -1)
-const _hoisted_13 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("a", { href: "https://sourceforge.net/projects/lenna/files/latest/download" }, [
-  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("img", {
+const _hoisted_15 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("img", { src: "https://raw.githubusercontent.com/lenna-project/lenna-cli/main/docs/images/run.gif" }, null, -1)
+const _hoisted_16 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("h2", null, "Desktop App", -1)
+const _hoisted_17 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("a", { href: "https://sourceforge.net/projects/lenna/files/latest/download" }, [
+  /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("img", {
     alt: "Download lenna",
     src: "https://a.fsdn.com/con/app/sf-download-button",
     width: "276",
@@ -1410,48 +1438,58 @@ const _hoisted_13 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("a"
     srcset: "https://a.fsdn.com/con/app/sf-download-button?button_size=2x 2x"
   })
 ], -1)
-const _hoisted_14 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("br", null, null, -1)
-const _hoisted_15 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createVNode)("iframe", {
+const _hoisted_18 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("br", null, null, -1)
+const _hoisted_19 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("iframe", {
   src: "https://snapcraft.io/lenna/embedded?button=black&summary=true&screenshot=true",
   frameborder: "0",
   width: "100%",
   height: "620px",
   style: {"border":"1px solid #CCC","border-radius":"2px"}
 }, null, -1)
+const _hoisted_20 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("h2", null, "Desktop Web App", -1)
+const _hoisted_21 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("a", { href: "https://github.com/lenna-project/lenna-gui/releases/latest" }, "Lenna GUI", -1)
+const _hoisted_22 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)(" This App supports convertion of images in folders. ")
+const _hoisted_23 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("br", null, null, -1)
+const _hoisted_24 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createTextVNode)(" You can find installers for Mac, Linux and Windows. ")
+const _hoisted_25 = /*#__PURE__*/(0,runtime_dom_esm_bundler_js_.createElementVNode)("br", null, null, -1)
 ;(0,runtime_dom_esm_bundler_js_.popScopeId)()
 
-const Aboutvue_type_template_id_36a1014e_scoped_true_render = /*#__PURE__*/Aboutvue_type_template_id_36a1014e_scoped_true_withId((_ctx, _cache, $props, $setup, $data, $options) => {
+function Aboutvue_type_template_id_603296e7_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
   const _component_Help = (0,runtime_dom_esm_bundler_js_.resolveComponent)("Help")
 
-  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createBlock)("div", Aboutvue_type_template_id_36a1014e_scoped_true_hoisted_1, [
-    Aboutvue_type_template_id_36a1014e_scoped_true_hoisted_2,
-    Aboutvue_type_template_id_36a1014e_scoped_true_hoisted_3,
+  return ((0,runtime_dom_esm_bundler_js_.openBlock)(), (0,runtime_dom_esm_bundler_js_.createElementBlock)("div", Aboutvue_type_template_id_603296e7_scoped_true_hoisted_1, [
+    Aboutvue_type_template_id_603296e7_scoped_true_hoisted_2,
+    Aboutvue_type_template_id_603296e7_scoped_true_hoisted_3,
     (0,runtime_dom_esm_bundler_js_.createVNode)(_component_Help),
-    Aboutvue_type_template_id_36a1014e_scoped_true_hoisted_4,
-    Aboutvue_type_template_id_36a1014e_scoped_true_hoisted_9,
-    Aboutvue_type_template_id_36a1014e_scoped_true_hoisted_10,
-    _hoisted_11,
-    _hoisted_12,
+    Aboutvue_type_template_id_603296e7_scoped_true_hoisted_4,
     _hoisted_13,
     _hoisted_14,
-    _hoisted_15
+    _hoisted_15,
+    _hoisted_16,
+    _hoisted_17,
+    _hoisted_18,
+    _hoisted_19,
+    _hoisted_20,
+    _hoisted_21,
+    _hoisted_22,
+    _hoisted_23,
+    _hoisted_24,
+    _hoisted_25
   ]))
-})
-;// CONCATENATED MODULE: ./src/views/About.vue?vue&type=template&id=36a1014e&scoped=true
+}
+;// CONCATENATED MODULE: ./src/views/About.vue?vue&type=template&id=603296e7&scoped=true
 
-;// CONCATENATED MODULE: ./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/views/About.vue?vue&type=script&lang=js
-
-
+;// CONCATENATED MODULE: ./node_modules/ts-loader/index.js??clonedRuleSet-1!./node_modules/vue-loader/dist/index.js??ruleSet[0]!./src/views/About.vue?vue&type=script&lang=ts
 
 
-/* harmony default export */ const Aboutvue_type_script_lang_js = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
-  name: "About",
-  components: {
-    Help: Help,
-  },
+/* harmony default export */ const Aboutvue_type_script_lang_ts = ((0,runtime_dom_esm_bundler_js_.defineComponent)({
+    name: "About",
+    components: {
+        Help: Help,
+    },
 }));
 
-;// CONCATENATED MODULE: ./src/views/About.vue?vue&type=script&lang=js
+;// CONCATENATED MODULE: ./src/views/About.vue?vue&type=script&lang=ts
  
 ;// CONCATENATED MODULE: ./src/views/About.vue
 
@@ -1459,48 +1497,38 @@ const Aboutvue_type_template_id_36a1014e_scoped_true_render = /*#__PURE__*/About
 
 
 ;
-Aboutvue_type_script_lang_js.render = Aboutvue_type_template_id_36a1014e_scoped_true_render
-Aboutvue_type_script_lang_js.__scopeId = "data-v-36a1014e"
+Aboutvue_type_script_lang_ts.render = Aboutvue_type_template_id_603296e7_scoped_true_render
+Aboutvue_type_script_lang_ts.__scopeId = "data-v-603296e7"
 
-/* harmony default export */ const About = (Aboutvue_type_script_lang_js);
-;// CONCATENATED MODULE: ./src/router.js
-
+/* harmony default export */ const About = (Aboutvue_type_script_lang_ts);
+;// CONCATENATED MODULE: ./src/router.ts
 
 
 
 const routes = [
-  {
-    path: "/",
-    name: "Home",
-    component: Home,
-  },
-  {
-    path: "/about",
-    name: "About",
-    component: About,
-  },
-  {
-    path: "/just/${just}",
-    name: "Just",
-    component: Home,
-  }
+    {
+        path: "/",
+        name: "Home",
+        component: Home,
+    },
+    {
+        path: "/about",
+        name: "About",
+        component: About,
+    },
+    {
+        path: "/just/${just}",
+        name: "Just",
+        component: Home,
+    }
 ];
-
 const router = (0,vue_router_esm_bundler_js_.createRouter)({
-  history: (0,vue_router_esm_bundler_js_.createWebHistory)(),
-  routes,
+    history: (0,vue_router_esm_bundler_js_.createWebHistory)(),
+    routes,
 });
-
 /* harmony default export */ const src_router = (router);
-// EXTERNAL MODULE: ./node_modules/vue3-tour/dist/vue3-tour.umd.js
-var vue3_tour_umd = __webpack_require__(169);
-var vue3_tour_umd_default = /*#__PURE__*/__webpack_require__.n(vue3_tour_umd);
-;// CONCATENATED MODULE: ./src/bootstrap.js
 
-
-
-
-
+;// CONCATENATED MODULE: ./src/bootstrap.ts
 
 
 
@@ -1508,10 +1536,9 @@ var vue3_tour_umd_default = /*#__PURE__*/__webpack_require__.n(vue3_tour_umd);
 
 
 (0,runtime_dom_esm_bundler_js_.createApp)(App)
-  .use(src_router)
-  .use(esm/* default */.ZP, { position: esm/* POSITION.TOP_LEFT */.Vr.TOP_LEFT })
-  .use((vue3_tour_umd_default()))
-  .mount("#app");
+    .use(src_router)
+    .use(esm/* default */.ZP, { position: esm/* POSITION.TOP_LEFT */.Vr.TOP_LEFT })
+    .mount("#app");
 
 
 /***/ })

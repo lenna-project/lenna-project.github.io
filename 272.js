@@ -545,6 +545,13 @@ const loadConfigFromParams = (plugin, params) => {
     });
     return plugin;
 };
+const addPlugin = (plugin) => {
+    const plugins = JSON.parse(localStorage.getItem("plugins") || "[]");
+    if (!plugins.includes(plugin)) {
+        plugins.push(plugin);
+        localStorage.setItem("plugins", JSON.stringify(plugins));
+    }
+};
 const listPlugins = () => {
     const plugins = localStorage.getItem("plugins") || "[]";
     return JSON.parse(plugins);

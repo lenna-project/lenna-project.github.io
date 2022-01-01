@@ -1,20 +1,22 @@
-interface ImagePreviewImage {
-    name: string;
+import { ImageSource } from "../models/image";
+declare interface FileOption {
+    text: string;
+    value: string;
 }
 declare interface ImagePreviewData {
     imgs: string[];
     visible: boolean;
     index: number;
     filetype: string;
-    options: Object[];
+    options: Array<FileOption>;
 }
 declare const _default: import("vue").DefineComponent<{
     images: {
-        type: () => Array<ImagePreviewImage>;
+        type: () => Array<ImageSource>;
         required: true;
     };
 }, unknown, ImagePreviewData, {}, {
-    createObjectURL(image: ImagePreviewImage): string;
+    createObjectURL(image: ImageSource): string;
     safeImage(file: any, format: string): Promise<Uint8Array>;
     downloadZip(): Promise<void>;
     show(): void;
@@ -23,7 +25,7 @@ declare const _default: import("vue").DefineComponent<{
 }, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, Record<string, any>, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<{
     images?: unknown;
 } & {
-    images: ImagePreviewImage[];
+    images: ImageSource[];
 } & {}>, {}>;
 export default _default;
 //# sourceMappingURL=ImagePreview.vue.d.ts.map

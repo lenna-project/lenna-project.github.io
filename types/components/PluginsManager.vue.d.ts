@@ -16,6 +16,7 @@ declare const _default: import("vue").DefineComponent<{
 }, unknown, PluginsManagerData, {}, {
     changeEnabled(name: string, enabled: boolean): void;
     changeConfig(name: string, config: Object): void;
+    change(): void;
     raw(comp: any): any;
 }, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, Record<string, any>, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<{
     pluginsmap?: unknown;

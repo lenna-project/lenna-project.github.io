@@ -1,17 +1,18 @@
 import { PluginManager } from "../controllers/plugin_manager";
-import { Image, ImageSource } from "../models/image";
-export declare interface HomeData {
+import { Image } from "../models/image";
+export declare interface BatchData {
     pluginUrl: string;
     just: string | null;
     defaultConfig: [];
     defaultPlugins: string[];
     sourceImages: Image[];
-    resultImages: ImageSource[];
+    resultImages: Image[];
     pluginManager: PluginManager;
 }
 declare const _default: import("vue").DefineComponent<{}, {
+    imageUpload: any;
     pluginsManager: any;
-}, HomeData, {}, {
+}, BatchData, {}, {
     loadPlugin(pluginUrl: string): void;
     loadDefaultPluginsMap(): void;
     loadDefaultPluginJson(): void;
@@ -21,4 +22,4 @@ declare const _default: import("vue").DefineComponent<{}, {
     processImages(): Promise<void>;
 }, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, import("vue").EmitsOptions, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<{} & {} & {}>, {}>;
 export default _default;
-//# sourceMappingURL=Home.vue.d.ts.map
+//# sourceMappingURL=Batch.vue.d.ts.map

@@ -11,3 +11,6 @@ https://lenna.app/just/rotate
 https://lenna.app/just/sepia
 https://lenna.app/jupyter/lab/
 https://lenna.app/jupyter/
+https://lenna.app/mobilenet-plugin/
+https://lenna.app/yolo-plugin/
+https://lenna.app/ultraface-plugin/

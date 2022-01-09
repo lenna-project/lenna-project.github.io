@@ -1,3 +1,6 @@
+export interface Configs {
+    [key: string]: any;
+}
 interface Config {
     key: string;
     value: any;

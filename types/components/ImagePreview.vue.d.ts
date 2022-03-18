@@ -22,10 +22,11 @@ declare const _default: import("vue").DefineComponent<{
     show(): void;
     showImg(index: any): void;
     handleHide(): void;
-}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, Record<string, any>, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<{
-    images?: unknown;
-} & {
-    images: ImageSource[];
-} & {}>, {}>;
+}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, Record<string, any>, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
+    images: {
+        type: () => Array<ImageSource>;
+        required: true;
+    };
+}>>, {}>;
 export default _default;
 //# sourceMappingURL=ImagePreview.vue.d.ts.map

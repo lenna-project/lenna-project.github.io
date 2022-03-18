@@ -7,11 +7,11 @@ declare const _default: import("vue").DefineComponent<{
         get(): boolean;
         set(value: boolean): void;
     };
-}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, "update:checked"[], "update:checked", import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<{
-    checked?: unknown;
-} & {
-    checked: boolean;
-} & {}> & {
+}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, "update:checked"[], "update:checked", import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
+    checked: {
+        type: BooleanConstructor;
+    };
+}>> & {
     "onUpdate:checked"?: ((...args: any[]) => any) | undefined;
 }, {
     checked: boolean;

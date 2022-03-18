@@ -18,18 +18,12 @@ declare const _default: import("vue").DefineComponent<{
     changeConfig(name: string, config: Object): void;
     change(): void;
     raw(comp: any): any;
-}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, Record<string, any>, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<{
-    pluginsmap?: unknown;
-    pluginsjson?: unknown;
-    defaultConfig?: unknown;
-    pluginManager?: unknown;
-    defaultPlugins?: unknown;
-} & {} & {
-    defaultConfig?: Record<string, any> | undefined;
-    defaultPlugins?: string[] | undefined;
-    pluginManager?: PluginManager | undefined;
-    pluginsmap?: string | undefined;
-    pluginsjson?: string | undefined;
-}>, {}>;
+}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, Record<string, any>, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
+    pluginsmap: StringConstructor;
+    pluginsjson: StringConstructor;
+    defaultConfig: ObjectConstructor;
+    pluginManager: () => PluginManager;
+    defaultPlugins: () => Array<string>;
+}>>, {}>;
 export default _default;
 //# sourceMappingURL=PluginsManager.vue.d.ts.map

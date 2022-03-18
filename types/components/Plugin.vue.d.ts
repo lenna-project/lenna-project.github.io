@@ -20,16 +20,11 @@ declare const _default: import("vue").DefineComponent<{
     loadUI(): Promise<void>;
     updateConfig(config: Object): Promise<void>;
     updateEnabled(enabled: boolean): Promise<void>;
-}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, Record<string, any>, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<{
-    name?: unknown;
-    plugin?: unknown;
-    url?: unknown;
-    defaultConfig?: unknown;
-} & {} & {
-    name?: string | undefined;
-    plugin?: PluginModule | undefined;
-    defaultConfig?: Config[] | undefined;
-    url?: string | undefined;
-}>, {}>;
+}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, Record<string, any>, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
+    name: StringConstructor;
+    plugin: () => PluginModule;
+    url: StringConstructor;
+    defaultConfig: () => Config[];
+}>>, {}>;
 export default _default;
 //# sourceMappingURL=Plugin.vue.d.ts.map
